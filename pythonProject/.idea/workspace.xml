@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7d17d5a-ef3d-487e-8ae4-befa3e9e00b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other/fileExercises/fileExercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other/forFun/birthdayParadox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/forExercises/forExercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +35,24 @@
   "keyToString": {
     "Python.birthdayParadox.executor": "Run",
     "Python.fileExercise.executor": "Run",
+    "Python.forExercises.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Python/pythonProject/Other/forFun/birthdayParadox.py"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\pythonProject\Other\forExercises" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Python\pythonProject\Other\forFun" />
       <recent name="D:\Python\pythonProject\Other\fileExercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fileExercise">
+  <component name="RunManager">
     <configuration name="birthdayParadox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
