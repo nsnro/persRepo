@@ -1,5 +1,6 @@
-# pythonCourse
+# Learning
+Personal repository used to grown.
 
-Used for UDEMY Pyhon Course
+Contains: Python.
 
-The Complete Python Bootcamp From Zero to Hero in Python
+Will contain: Selenium, Java, Cypress.
