@@ -1,5 +1,6 @@
 # Exercises taken from https://www.w3resource.com/python-exercises/python-conditional-statements-and-loop-exercises.php
 import random
+import re
 
 
 def problemOne():
@@ -162,5 +163,92 @@ def problemThirteen():
 
 
 def problemFourteen():
+    digit = 0
+    letter = 0
     userInput = input("Enter a string: \n")
-    # TO BE FINALISED
+    for chars in userInput:
+        if chars.isdigit():
+            digit = digit + 1
+        else:
+            if chars.isalpha():
+                letter = letter + 1
+    print(f"Digits: {digit}; Letters: {letter}")
+
+
+def problemFifteen():
+    password = input("Please enter a password: ")
+    valid = True
+    if len(password) < 6 or len(password) > 18:
+        print("Password is of invalid length")
+        valid = False
+    else:
+        if not re.search('[A-Z]', password):
+            valid = False
+            print("Password does not contain uppercase letters")
+        else:
+            if not re.search('[a-z]', password):
+                valid = False
+                print("Password does not contain lowercase numbers")
+            else:
+                if not re.search('[1-9]', password):
+                    valid = False
+                    print("Password does not contain numbers")
+                else:
+                    if not re.search("[$#@]", password):
+                        valid = False
+                        print("Password does not contain special characters")
+
+    if valid:
+        print("Password is valid, congratulations")
+    else:
+        print("Password is invalid...")
+
+
+def problemSixteen():
+    fit = True
+    finalList = []
+    for i in range(100, 401):
+        fit = True
+        number = i
+        while number > 0 and fit == True:
+            if (number % 10) % 2 == 0:
+                fit = True
+                number = int(number / 10)
+            else:
+                fit = False
+        if fit:
+            finalList.append(i)
+    print(finalList)
+
+def problemThirtyOne():
+    userInput = int(input("Enter your dog's age"))
+    i = 1
+    age = 0
+    while i <= userInput:
+        if i == 1 or i == 2:
+           age = age + 10.5
+           i = i + 1
+        else:
+            age = age + 4
+            i = i + 1
+    print(f"{userInput}, {age}")
+
+def problemThirtyTwo():
+    months = {"January": "31",
+              "February": "28/29",
+              "March": "31",
+              "April": "30",
+              "May": "31",
+              "June": "30",
+              "July": "31",
+              "August": "31",
+              "September": "30",
+              "October": "31",
+              "November": "30",
+              "December": "31"}
+    userInput = input("Enter the month and I'll tell you the number of days in it...\n")
+    uinput = userInput.lower()
+    uinput = uinput.capitalize()
+    print(months[uinput])
+
+problemThirtyTwo()
