@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7d17d5a-ef3d-487e-8ae4-befa3e9e00b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Other/forExercises/forExercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/forCourse/PythonFunctions/Practice1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/forCourse/PythonStatements/Test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +34,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Practice1.executor": "Run",
+    "Python.Test.executor": "Run",
     "Python.birthdayParadox.executor": "Run",
     "Python.fileExercise.executor": "Run",
     "Python.forExercises.executor": "Run",
