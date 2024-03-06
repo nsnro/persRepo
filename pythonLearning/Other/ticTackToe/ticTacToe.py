@@ -80,6 +80,6 @@ def startGame():
         matrix = takeInput(initialMatrix, round)
         displayGame(matrix)
         round = round + 1
-        checkCondition(round, matrix)
+        done = checkCondition(round, matrix)
     print("Thank you for playing, goodbye")
 startGame()
