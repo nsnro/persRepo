@@ -3,17 +3,19 @@ def displayGame(matrix):
     for i in range(len(matrix)):
         print(matrix[i])
 
-def takeInput(matrix, round):
+
+def takeInput(matrix, roundCounter):
     userInput = input("Please input your next move in the format x,y: \n")
 
     while not validateInput(userInput,matrix):
         userInput = input("Incorrect input. Please try again in the format x,y: \n")
 
-    if round % 2 == 0:
+    if roundCounter % 2 == 0:
         matrix[int(userInput[0])-1][int(userInput[2])-1] = 'X'
-    if round % 2 == 1:
+    if roundCounter % 2 == 1:
         matrix[int(userInput[0])-1][int(userInput[2])-1] = 'O'
     return matrix
+
 
 def validateInput(userInput, matrix):
     if len(userInput) > 3:
@@ -30,8 +32,9 @@ def validateInput(userInput, matrix):
         else:
             return True
 
-def checkCondition(round, matrix):
-    if round < 6:
+
+def checkCondition(roundCounter, matrix):
+    if roundCounter < 6:
         pass
     else:
         if checkRow(matrix) != -1:
@@ -46,7 +49,7 @@ def checkCondition(round, matrix):
 
 
 def checkRow(matrix):
-    for i in range (0, len(matrix)):
+    for i in range(0, len(matrix)):
         if len(set(matrix[i])) == 1 and matrix[i][0] != ' ':
             print(f"Winner: {matrix[i][0]}")
             return matrix[i][0]
@@ -73,13 +76,15 @@ def checkColumn(matrix):
 
 def startGame():
     done = False
-    round = 1
-    initialMatrix = [[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']]
-    displayGame(initialMatrix)
+    roundCounter = 1
+    matrix = [[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']]
+    displayGame(matrix)
     while not done:
-        matrix = takeInput(initialMatrix, round)
+        takeInput(matrix, roundCounter)
         displayGame(matrix)
-        round = round + 1
-        done = checkCondition(round, matrix)
+        roundCounter = roundCounter + 1
+        done = checkCondition(roundCounter, matrix)
     print("Thank you for playing, goodbye")
+
+
 startGame()
