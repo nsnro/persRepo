@@ -1,7 +1,7 @@
 # Done with udemy course.
 def displayGame(matrix):
     for i in range(len(matrix)):
-        print(matrix[i])
+        print(matrix[i][0] + " | " + matrix[i][1] + " | " + matrix[i][2])
 
 
 def takeInput(matrix, roundCounter):
