@@ -3,6 +3,28 @@ from Player import Player
 from Deck import Deck
 
 
+def duel(cardOne, cardTwo):
+    valueDictionary = [(11, "J"), (12, "Q"), (13, "K"), (14, "A")]
+
+    playerOneCard = cardOne
+    playerTwoCard = cardTwo
+
+    for value, names in valueDictionary:
+        if cardOne == names:
+            playerOneCard = value
+        if cardTwo == names:
+            playerTwoCard = value
+
+    if int(playerOneCard) < int(playerTwoCard):
+        print("Player Two wins the round!\n")
+        return 2
+    if int(playerTwoCard) < int(playerOneCard):
+        print("Player One wins the round!\n")
+        return 1
+    if int(playerOneCard) == int(playerTwoCard):
+        return 0
+
+
 class Game:
 
     def __init__(self):
@@ -26,11 +48,10 @@ class Game:
         count = 0
         print("Starting the war!")
         gameDone = False
-        # while not gameDone:
-        while count < 50:
+        while not gameDone:
             self.playRound()
-            gameDone = self.checkCondition()
-            count += 1
+            gameDone = self.checkCondition(count)
+            count = count + 1
 
     def __str__(self):
         print("Player One has the following deck:")
@@ -42,46 +63,42 @@ class Game:
         return ""
 
     def playRound(self):
-        valueDictionary = [(11, "J"), (12, "Q"), (13, "K"), (14, "A")]
-        print("Starting new round!")
 
-        playerOneCard = self.playerOne.playerDeck[0].value
-        playerTwoCard = self.playerTwo.playerDeck[0].value
+        victory = duel(self.playerOne.playerDeck[0].value, self.playerTwo.playerDeck[0].value)
 
-        for value, names in valueDictionary:
-            if self.playerOne.playerDeck[0].value == names:
-                playerOneCard = value
-            if self.playerTwo.playerDeck[0].value == names:
-                playerTwoCard = value
+        cards = [self.playerOne.playCard(), self.playerTwo.playCard()]
 
-        self.playerOne.playCard()
-        self.playerTwo.playCard()
+        while victory == 0:
+            print("Round is a draw\n")
+            try:
+                cards.append(self.playerOne.playCard())
+                cards.append(self.playerTwo.playCard())
+                victory = duel(self.playerOne.playerDeck[0].value, self.playerTwo.playerDeck[0].value)
+                cards.append(self.playerOne.playCard())
+                cards.append(self.playerTwo.playCard())
+            except IndexError:
+                print("One of the players does not have enough cards for war\n")
+                if len(self.playerOne.playerDeck) == 0:
+                    victory = 2
+                if len(self.playerTwo.playerDeck) == 0:
+                    victory = 1
 
-        cards = [self.playerOne.playerDeck[0], self.playerTwo.playerDeck[0]]
+        if victory == 1:
+            self.playerOne.playerDeck.extend(cards)
+        if victory == 2:
+            self.playerTwo.playerDeck.extend(cards)
 
-        if int(playerOneCard) < int(playerTwoCard):
-            print("Player Two wins the round!\n")
-            self.playerTwo.addCards(cards)
-        else:
-            if int(playerOneCard) > int(playerTwoCard):
-                print("Player One wins the round!\n")
-                self.playerOne.addCards(cards)
-            else:
-                if int(playerOneCard) == int(playerTwoCard):
-                    print("Draw TBD")
-                    self.playerOne.playerDeck.pop(0)
-                    self.playerTwo.playerDeck.pop(0)
-                    pass
-        self.playerOne.playerDeck.pop(0)
-        self.playerTwo.playerDeck.pop(0)
-        print(f"Score: {len(self.playerOne.playerDeck)} vs {len(self.playerTwo.playerDeck)}")
+        print(f"Score: {len(self.playerOne.playerDeck)} vs {len(self.playerTwo.playerDeck)}\n")
 
-    def checkCondition(self):
+    def checkCondition(self, count):
         if len(self.playerOne.playerDeck) == 0:
             print("Player Two has won the game!")
             return True
         if len(self.playerTwo.playerDeck) == 0:
             print("Player One has won the game!")
+            return True
+        if count > 10000:
+            print("Infinite loop detected! Stopping the game.")
             return True
         return False
 
