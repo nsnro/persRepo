@@ -1,0 +1,5 @@
+You need to save all messages and comments left by a specific Reddit user.
+
+It must be saved in a json/csv file (at the discretion of the performer).
+
+For each post and comment the file must have a timestamp and the URL of the post or comment on reddit.com

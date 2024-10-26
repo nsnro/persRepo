@@ -1,0 +1,10 @@
+I'm looking for an experienced data scraper.
+
+I need someone with excellent knowledge and expertise in web scraping.
+I will need the following with regards to mid sized collectible stores around the world:
+Company Name
+City
+Country
+URL
+Contact person
+Email address.

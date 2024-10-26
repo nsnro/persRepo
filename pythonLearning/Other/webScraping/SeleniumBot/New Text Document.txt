@@ -1,0 +1,2 @@
+I’m looking for a Python Selenium expert who will make a bot for me to scrap the odd multipliers from a gambling site shown above. I also want all the most important elements to be selected using Xpaths, IDS, Classes, or Css selectors. The bot should be able to print the odds into the terminal.
+The site URL is=======  https://www.betika.com/en-ke/aviator

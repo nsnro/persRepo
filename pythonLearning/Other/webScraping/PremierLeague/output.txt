@@ -1,0 +1,2839 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta content="Premier League Club Stats - Wins" name="twitter:title"/>
+  <meta content="View Wins played by Premier League clubs for 2023/24 and previous seasons, on the official website of the Premier League." name="description"/>
+  <meta content="View Wins played by Premier League clubs for 2023/24 and previous seasons, on the official website of the Premier League." name="twitter:description"/>
+  <meta content="Premier League Club Stats - Wins" property="og:title"/>
+  <title>
+   Premier League Club Stats - Wins
+  </title>
+  <meta content="View Wins played by Premier League clubs for 2023/24 and previous seasons, on the official website of the Premier League." property="og:description"/>
+  <!-- Designed and built by Pulselive - www.pulselive.com -->
+  <meta charset="utf-8"/>
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <script>
+   dataLayer = [];
+        window.RESOURCE_VERSION_REBRAND = 'rebrand/v7.142.5';
+		window.RESOURCE_VERSION = 'rebrand/v7.142.5';
+		window.BASE_RESOURCE_URL = 'https://www.premierleague.com/resources';
+  </script>
+  <!--[if gt IE 8]><!-->
+  <!--<link rel="stylesheet" href="https://www.premierleague.com/resources/rebrand/v7.142.5/styles/badge-abbreviations.css">-->
+  <link href="/resources/rebrand/v7.142.5/styles/screen.css" rel="stylesheet"/>
+  <!--<![endif]-->
+  <script charset="UTF-8" src="/resources/prod/v6.122.4-6039/i18n/i18n-en.js">
+  </script>
+  <script charset="UTF-8" src="//translations.platform.pulselive.com/premierleague/en.js">
+  </script>
+  <!-- OneTrust Cookies Consent Notice start for premierleague.com -->
+  <script charset="UTF-8" data-domain-script="cdf436a9-4615-4772-a4b4-7660a91cc3a2" src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   function OptanonWrapper() { }
+  </script>
+  <!-- OneTrust Cookies Consent Notice end for premierleague.com -->
+  <script async="" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js">
+  </script>
+  <script>
+   var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  googletag.cmd.push(function() {
+    // Enable SRA and services.
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet" type="text/css"/>
+  <!-- Google Tag Manager -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=GTM-MS75QT">
+  </script>
+  <script>
+   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-MS75QT');
+  </script>
+  <!-- End Google Tag Manager -->
+  <!-- Polyfill service provided by the FT - https://github.com/Financial-Times/polyfill-service -->
+  <script src="//cdn.polyfill.io/v2/polyfill.min.js">
+  </script>
+  <link href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/favicon/apple-touch-icon-57x57.png" rel="apple-touch-icon-precomposed" sizes="57x57">
+   <link href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/favicon/apple-touch-icon-114x114.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+    <link href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/favicon/apple-touch-icon-72x72.png" rel="apple-touch-icon-precomposed" sizes="72x72"/>
+    <link href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/favicon/apple-touch-icon-144x144.png" rel="apple-touch-icon-precomposed" sizes="144x144"/>
+    <link href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/favicon/apple-touch-icon-60x60.png" rel="apple-touch-icon-precomposed" sizes="60x60"/>
+    <link href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/favicon/apple-touch-icon-120x120.png" rel="apple-touch-icon-precomposed" sizes="120x120"/>
+    <link href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/favicon/apple-touch-icon-76x76.png" rel="apple-touch-icon-precomposed" sizes="76x76"/>
+    <link href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/favicon/apple-touch-icon-152x152.png" rel="apple-touch-icon-precomposed" sizes="152x152"/>
+    <link href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/favicon/favicon-196x196.png" rel="icon" sizes="196x196" type="image/png"/>
+    <link href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/favicon/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/>
+    <link href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+    <link href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+    <link href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/favicon/favicon-128.png" rel="icon" sizes="128x128" type="image/png"/>
+    <link href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/favicon/favicon.ico" rel="shortcut icon"/>
+    <meta content=" " name="application-name">
+     <meta content="#FFFFFF" name="msapplication-TileColor">
+      <meta content="mstile-144x144.png" name="msapplication-TileImage">
+       <meta content="mstile-70x70.png" name="msapplication-square70x70logo"/>
+       <meta content="mstile-150x150.png" name="msapplication-square150x150logo"/>
+       <meta content="mstile-310x150.png" name="msapplication-wide310x150logo"/>
+       <meta content="mstile-310x310.png" name="msapplication-square310x310logo"/>
+       <meta content="app-id=1138895159" name="apple-itunes-app"/>
+       <!--
+	Enables or disables automatic detection of possible phone numbers in a webpage in Safari on iOS.
+	https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html#//apple_ref/doc/uid/TP40008193-SW5
+	-->
+       <meta content="telephone=no" name="format-detection"/>
+      </meta>
+     </meta>
+    </meta>
+   </link>
+  </link>
+ </head>
+ <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+   <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-MS75QT" style="display:none;visibility:hidden" width="0">
+   </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <header class="masthead">
+   <a class="skipTo" href="#mainNav">
+    Skip to main navigation
+   </a>
+   <a class="skipTo" href="#mainContent">
+    Skip to main content
+   </a>
+   <nav class="clubNavigation js-club-navigation" data-script="pl_global-header" role="menubar">
+    <h4 class="clubSitesHeading">
+     Club Sites
+     <svg class="clubSitesHeading__icon">
+      <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-no-fill" xmlns:xlink="http://www.w3.org/1999/xlink">
+      </use>
+     </svg>
+    </h4>
+    <ul class="clubList" role="menu">
+     <li class="clubList__club">
+      <a class="clubList__link" href="        http://www.arsenal.com?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t3.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t3@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Arsenal
+        </span>
+       </div>
+       <span class="name">
+        Arsenal
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        https://www.avfc.co.uk/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t7.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t7@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Aston Villa
+        </span>
+       </div>
+       <span class="name">
+        Aston Villa
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        https://www.afcb.co.uk/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t91.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t91@x2.png 2x"/>
+        <span class="visuallyHidden">
+         AFC Bournemouth
+        </span>
+       </div>
+       <span class="name">
+        AFC Bournemouth
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        https://www.brentfordfc.com/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t94.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t94@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Brentford
+        </span>
+       </div>
+       <span class="name">
+        Brentford
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        https://www.brightonandhovealbion.com?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t36.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t36@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Brighton &amp; Hove Albion
+        </span>
+       </div>
+       <span class="name">
+        Brighton &amp; Hove Albion
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        https://www.burnleyfootballclub.com/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t90.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t90@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Burnley
+        </span>
+       </div>
+       <span class="name">
+        Burnley
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        https://www.chelseafc.com/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t8.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t8@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Chelsea
+        </span>
+       </div>
+       <span class="name">
+        Chelsea
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        http://www.cpfc.co.uk/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t31.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t31@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Crystal Palace
+        </span>
+       </div>
+       <span class="name">
+        Crystal Palace
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        http://www.evertonfc.com/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t11.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t11@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Everton
+        </span>
+       </div>
+       <span class="name">
+        Everton
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        https://www.fulhamfc.com/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t54.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t54@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Fulham
+        </span>
+       </div>
+       <span class="name">
+        Fulham
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        http://www.liverpoolfc.com/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t14.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t14@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Liverpool
+        </span>
+       </div>
+       <span class="name">
+        Liverpool
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        https://www.lutontown.co.uk/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t102.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t102@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Luton Town
+        </span>
+       </div>
+       <span class="name">
+        Luton Town
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        https://www.mancity.com?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t43.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t43@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Manchester City
+        </span>
+       </div>
+       <span class="name">
+        Manchester City
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        http://www.manutd.com/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t1.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t1@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Manchester United
+        </span>
+       </div>
+       <span class="name">
+        Manchester United
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        https://www.nufc.co.uk/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t4.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t4@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Newcastle United
+        </span>
+       </div>
+       <span class="name">
+        Newcastle United
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        https://www.nottinghamforest.co.uk/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t17.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t17@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Nottingham Forest
+        </span>
+       </div>
+       <span class="name">
+        Nottingham Forest
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        https://www.sufc.co.uk/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t49.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t49@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Sheffield United
+        </span>
+       </div>
+       <span class="name">
+        Sheffield United
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        http://www.tottenhamhotspur.com/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t6@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Tottenham Hotspur
+        </span>
+       </div>
+       <span class="name">
+        Tottenham Hotspur
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        http://www.whufc.com/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t21.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t21@x2.png 2x"/>
+        <span class="visuallyHidden">
+         West Ham United
+        </span>
+       </div>
+       <span class="name">
+        West Ham United
+       </span>
+      </a>
+     </li>
+     <li class="clubList__club">
+      <a class="clubList__link" href="        https://www.wolves.co.uk/?utm_source=premier-league-website&amp;utm_campaign=website&amp;utm_medium=link
+" role="menuitem" target="_blank">
+       <div class="badge badge--large badge-image-container" data-size="50" data-widget="club-badge-image">
+        <img class="badge-image badge-image--50 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/50/t39.png" srcset="https://resources.premierleague.com/premierleague/badges/50/t39@x2.png 2x"/>
+        <span class="visuallyHidden">
+         Wolverhampton Wanderers
+        </span>
+       </div>
+       <span class="name">
+        Wolverhampton Wanderers
+       </span>
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="fixedContainer js-fixed-container">
+    <a aria-label="Premier League Home Page on logo link" class="logoContainer js-logo-container" href="https://www.premierleague.com/home">
+     <img alt="Premier League Logo" class="pl-header-logo" src="https://www.premierleague.com/resources/rebrand/v7.142.5/i/elements/pl-main-logo.png"/>
+     <div class="logoBackground">
+     </div>
+    </a>
+    <div class="navContainer" data-script="pl_global-header">
+     <section class="navBar js-nav-bar" id="mainNav" role="menubar">
+      <div aria-expanded="false" class="menuBtn js-hamburger-toggle" id="hamburgerToggle" role="button">
+       <div class="menuBtnContainer">
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+       </div>
+      </div>
+      <nav class="mainNav">
+       <ul class="pageLinks js-page-links" role="menu">
+        <li aria-haspopup="true" class="premierleague" role="menuitem" tabindex="0">
+         <div class="navLink active" role="button" tabindex="index">
+          <span class="navText">
+           Premier League
+          </span>
+          <span class="chevron-dropdown">
+          </span>
+         </div>
+         <div aria-hidden="true" class="dropdown">
+          <ul role="menu">
+           <li tabindex="-1">
+            <a class="" href="/" role="menuitem" tabindex="0">
+             Home
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/fixtures" role="menuitem" tabindex="0">
+             Fixtures
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/results" role="menuitem" tabindex="0">
+             Results
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/tables" role="menuitem" tabindex="0">
+             Tables
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/latest-player-injuries" role="menuitem" tabindex="0">
+             Injury News
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/transfers" role="menuitem" tabindex="0">
+             Transfers
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="hideNavDropdown" href="/stats" role="menuitem" tabindex="0">
+             Stats
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/news" role="menuitem" tabindex="0">
+             News
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/video" role="menuitem" tabindex="0">
+             Video
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/broadcast-schedules" role="menuitem" tabindex="0">
+             Watch Live
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/clubs" role="menuitem" tabindex="0">
+             Clubs
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/players" role="menuitem" tabindex="0">
+             Players
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/awards" role="menuitem" tabindex="0">
+             Awards
+            </a>
+           </li>
+          </ul>
+         </div>
+        </li>
+        <li aria-haspopup="true" class="fantasy" role="menuitem" tabindex="0">
+         <div class="navLink" role="button" tabindex="index">
+          <span class="navText">
+           Fantasy
+          </span>
+          <span class="chevron-dropdown">
+          </span>
+         </div>
+         <div aria-hidden="true" class="dropdown">
+          <ul role="menu">
+           <li tabindex="-1">
+            <a class="" href="/fantasy" role="menuitem" tabindex="0">
+             Fantasy
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="new-label" href="/fpl-challenge" role="menuitem" tabindex="0">
+             Fantasy Challenge
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/draft" role="menuitem" tabindex="0">
+             Fantasy Draft
+            </a>
+           </li>
+          </ul>
+         </div>
+        </li>
+        <li aria-haspopup="true" class="football&amp;community communities" role="menuitem" tabindex="0">
+         <div class="navLink" role="button" tabindex="index">
+          <span class="navText">
+           Football &amp; Community
+          </span>
+          <span class="chevron-dropdown">
+          </span>
+         </div>
+         <div aria-hidden="true" class="dropdown">
+          <ul role="menu">
+           <li tabindex="-1">
+            <a class="" href="/footballandcommunity/wider-football" role="menuitem" tabindex="0">
+             Wider Football
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/footballandcommunity/premier-league-charitable-fund" role="menuitem" tabindex="0">
+             PL Charitable Fund
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/footballandcommunity/community" role="menuitem" tabindex="0">
+             Community
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/footballandcommunity/youth-development" role="menuitem" tabindex="0">
+             Youth Development
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/footballandcommunity/NoRoomForRacism" role="menuitem" tabindex="0">
+             No Room for Racism
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/footballandcommunity/mental-health" role="menuitem" tabindex="0">
+             Mental Health
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/footballandcommunity/RainbowLaces" role="menuitem" tabindex="0">
+             Rainbow Laces
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/footballandcommunity/poppy" role="menuitem" tabindex="0">
+             Poppy
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/morethanagame" role="menuitem" tabindex="0">
+             More than a game
+            </a>
+           </li>
+          </ul>
+         </div>
+        </li>
+        <li aria-haspopup="true" class="about" role="menuitem" tabindex="0">
+         <div class="navLink" role="button" tabindex="index">
+          <span class="navText">
+           About
+          </span>
+          <span class="chevron-dropdown">
+          </span>
+         </div>
+         <div aria-hidden="true" class="dropdown">
+          <ul role="menu">
+           <li tabindex="-1">
+            <a class="" href="/about" role="menuitem" tabindex="0">
+             Overview
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/about/what-we-do" role="menuitem" tabindex="0">
+             What we do
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/about/governance" role="menuitem" tabindex="0">
+             Governance
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/about/statement-of-principles" role="menuitem" tabindex="0">
+             Statement of Principles
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/about/inclusion" role="menuitem" tabindex="0">
+             Inclusion
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/about/publications" role="menuitem" tabindex="0">
+             Publications
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/about/partners" role="menuitem" tabindex="0">
+             Partners
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/about/legal" role="menuitem" tabindex="0">
+             Legal
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/about/safeguarding" role="menuitem" tabindex="0">
+             Safeguarding
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/about/careers" role="menuitem" tabindex="0">
+             Careers
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/about/media" role="menuitem" tabindex="0">
+             Media
+            </a>
+           </li>
+           <li tabindex="-1">
+            <a class="" href="/gender-pay-gap-report" role="menuitem" tabindex="0">
+             Gender Pay Gap Report
+            </a>
+           </li>
+          </ul>
+         </div>
+        </li>
+        <li class="show-ms noroomforracism noDrop" role="menuitem">
+         <a class="navLink" data-link-index="18" href="/NoRoomForRacism" role="menuitem">
+          No Room For Racism
+         </a>
+         <div class="navLink" data-nochildrenlink="/NoRoomForRacism" role="button" tabindex="index">
+          <span class="navText">
+           No Room For Racism
+          </span>
+         </div>
+         <div aria-hidden="true" class="dropdown">
+         </div>
+        </li>
+        <li aria-haspopup="true" class="more" role="menuitem" tabindex="0">
+         <div class="navLink" role="button">
+          More
+          <span class="chevron-dropdown">
+          </span>
+         </div>
+         <div aria-hidden="true" class="dropdown">
+          <ul role="menu">
+           <li>
+            <a class="hideNavDropdown" href="/history" role="menuitem">
+             History
+            </a>
+           </li>
+           <li>
+            <a class="" href="/hall-of-fame" role="menuitem">
+             Hall of Fame
+            </a>
+           </li>
+           <li>
+            <a class="" href="/PL30" role="menuitem">
+             PL30
+            </a>
+           </li>
+           <li>
+            <a class="" href="/referees/overview" role="menuitem">
+             Referees
+            </a>
+           </li>
+           <li>
+            <a class="" href="/managers" role="menuitem">
+             Managers
+            </a>
+           </li>
+           <li>
+            <a class="" href="/man-of-the-match" role="menuitem">
+             Man of the Match
+            </a>
+           </li>
+           <li>
+            <a class="" href="/epl" role="menuitem">
+             ePremier League
+            </a>
+           </li>
+           <li>
+            <a class="" href="/nike-ball-hub" role="menuitem">
+             Nike Ball Hub
+            </a>
+           </li>
+           <li>
+            <a class="" href="/contact/faqs" role="menuitem">
+             FAQs
+            </a>
+           </li>
+           <li>
+            <a class="" href="/contact" role="menuitem">
+             Contact Us
+            </a>
+           </li>
+           <li>
+            <a class="" href="/tickets" role="menuitem">
+             Tickets
+            </a>
+           </li>
+           <li>
+            <a class="" href="/SummerSeries" role="menuitem">
+             Summer Series
+            </a>
+           </li>
+           <li>
+            <a class="" href="/morningslive" role="menuitem">
+             Mornings Live
+            </a>
+           </li>
+          </ul>
+         </div>
+        </li>
+        <!--TO-TRANSLATE -->
+        <li aria-haspopup="true" class="clubs">
+         <div class="navLink clubListMobileButton" role="button">
+          Clubs
+          <span class="icn external-w">
+           <span class="visuallyHidden">
+            External Link
+           </span>
+          </span>
+         </div>
+         <div aria-hidden="true" class="dropdown" role="menu">
+         </div>
+        </li>
+       </ul>
+      </nav>
+      <div class="navOption search">
+       <div class="searchBtn headerSearchButton js-header-search-btn" role="button" tabindex="0">
+        <span class="visuallyHidden">
+         Search
+        </span>
+        <div alt="" class="icn search-w">
+        </div>
+       </div>
+      </div>
+      <a class="navLink navOption navOption--no-border fantasySignIn nav-sign-in-btn" href="#!" role="button" tabindex="0">
+       <span class="fantasySignInLabel">
+        Sign in
+       </span>
+      </a>
+      <a class="navLink navOption navOption--no-border fantasySignOut" href="#!" role="button" tabindex="0">
+       <span class="fantasyUsername">
+       </span>
+      </a>
+      <a class="noroomforracism featured-link navLink navOption" href="/NoRoomForRacism" role="button" tabindex="0">
+       <div class="icn user-w show-m">
+       </div>
+       <span class="featuredLinkTitle">
+        No Room For Racism
+       </span>
+      </a>
+     </section>
+     <div class="searchBar searchBarContainer js-search-bar-container" data-widget="search-header-redirect" role="search">
+      <div class="searchBox">
+       <div class="plSearch js-search-input-container">
+        <input class="searchInput searchInputContainer js-search-input" id="searchPremierLeagueInput" placeholder="Search for News, Players &amp; Clubs" type="text"/>
+        <div class="searchBar__predicted-search-wrapper">
+         <div class="searchBar__predicted-search-content-wrapper js-predicted-search-wrapper">
+         </div>
+         <div class="loader js-loader u-hide">
+          <div class="loader-small">
+           <div class="line">
+           </div>
+          </div>
+         </div>
+        </div>
+        <button class="search-input__button search-input__button--dark js-empty-input-btn">
+         <svg aria-hidden="true" class="icon search-input__icon">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-close" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </button>
+        <label class="visuallyHidden" for="searchPremierLeagueInput">
+         Search for News, Players &amp; Clubs
+        </label>
+        <span class="focusBorder">
+        </span>
+        <span class="searchBtnContainer searchButtonContainer">
+         <input aria-label="Submit search" class="searchInputBtn js-search-input-btn" id="searchPremierLeagueInput" tabindex="0" type="submit"/>
+         <svg aria-hidden="true" class="icon icn search-sm">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-search" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+         <span class="visuallyHidden">
+          Submit search
+         </span>
+        </span>
+       </div>
+      </div>
+      <div class="searchBar__suggested-wrapper">
+       <div class="searchBar__suggested-content-wrapper">
+        <div class="searchBar__suggested-section">
+         <h3 class="searchBar__suggested-section-title">
+          Suggested Searches
+         </h3>
+         <div class="searchBar__suggested-item-wrapper">
+          <button class="searchBar__suggested-item btn js-suggested-item" data-title="Premier League Fixtures" data-type="hot-topic">
+           Premier League Fixtures
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-title="Fantasy Premier League" data-type="hot-topic">
+           Fantasy Premier League
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-title="Goal Of The Month" data-type="hot-topic">
+           Goal Of The Month
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-title="Ones to watch" data-type="hot-topic">
+           Ones to watch
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-title="No Room For Racism" data-type="hot-topic">
+           No Room For Racism
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-title="Tickets" data-type="hot-topic">
+           Tickets
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-title="FPL Player Price changes" data-type="hot-topic">
+           FPL Player Price changes
+          </button>
+         </div>
+        </div>
+        <div class="searchBar__suggested-section">
+         <h3 class="searchBar__suggested-section-title">
+          Players
+         </h3>
+         <div class="searchBar__suggested-item-wrapper">
+          <button class="searchBar__suggested-item btn js-suggested-item" data-player-id="65970" data-title="Erling Haaland">
+           Erling Haaland
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-player-id="5178" data-title="Mohamed Salah">
+           Mohamed Salah
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-player-id="24630" data-title="Richarlison">
+           Richarlison
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-player-id="49293" data-title="Cole Palmer">
+           Cole Palmer
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-player-id="49481" data-title="Bukayo Saka">
+           Bukayo Saka
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-player-id="70287" data-title="Darwin Núñez">
+           Darwin Núñez
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-player-id="51084" data-title="Moussa Diaby">
+           Moussa Diaby
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-player-id="75582" data-title="Micky van de Ven">
+           Micky van de Ven
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-player-id="54312" data-title="Miguel Almirón">
+           Miguel Almirón
+          </button>
+          <button class="searchBar__suggested-item btn js-suggested-item" data-player-id="13565" data-title="Marcus Rashford">
+           Marcus Rashford
+          </button>
+         </div>
+        </div>
+        <div class="searchBar__suggested-section">
+         <section class="editorial-list editorial-list--3 widget widget--border widget--has-cta" data-script="pl_editorial-lists" data-widget="video-list">
+          <header class="widget-header">
+           <h2 class="widget-header__title">
+            Videos
+           </h2>
+           <a class="widget-header__cta" href="/video">
+            <span>
+             View more
+            </span>
+            <svg aria-hidden="true" class="icon widget-header__cta-icon">
+             <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+             </use>
+            </svg>
+           </a>
+          </header>
+          <div class="editorial-list__wrapper js-video-list">
+           <div class="editorial-list__item">
+            <article class="media-thumbnail" data-widget="lazy-load-images">
+             <a class="media-thumbnail__link js-gtm-tracking" data-content-opta-id="" data-content-type="video" data-is-external="false" data-title="Trivia time: Beat the players in our A-Z quiz of Premier League clubs!" data-ui-args='{"contentId": 3970974, "mediaId":6351097619112, "mediaTitle":"Trivia time: Beat the players in our A-Z quiz of Premier League clubs!", "mediaCategory":"Video: ", "mediaDescription":"Can you name a club for for every letter of the alphabet? We put several stars to the test - can you top their scores?", "mediaDate":"2024-04-17T15:06:00Z","mediaDuration":"08:12 ","mediaHotlinkUrl":"", "mediaHotlinkText":""}' data-ui-modal="#videoPlayer" data-widget="media-thumbnail-tracking" href="/video/single/3970974?FOOTBALL_PERSONS=7975,15656,21998" target="_blank" title="Trivia time: Beat the players in our A-Z quiz of Premier League clubs!">
+              <header class="media-thumbnail__header">
+               <div class="media-thumbnail__image-container placeholder">
+                <div class="js-lazy-load u-observed lazy-image-wrapper">
+                 <!--     <div class="picture-wrapper">
+        <picture class=" object-fit-cover-picture ">
+                    <source class="" srcset="https://resources.premierleague.com/photos/2024/04/17/2617646a-bb1c-46cd-baf9-a4b7038e5d7a/pYFIiGXU.jpg?width=344&height=215, https://resources.premierleague.com/photos/2024/04/17/2617646a-bb1c-46cd-baf9-a4b7038e5d7a/pYFIiGXU.jpg?width=688&height=430 2x, https://resources.premierleague.com/photos/2024/04/17/2617646a-bb1c-46cd-baf9-a4b7038e5d7a/pYFIiGXU.jpg?width=1032&height=645 3x" media="(max-width: 640px)">
+                    <source class="" srcset="https://resources.premierleague.com/photos/2024/04/17/2617646a-bb1c-46cd-baf9-a4b7038e5d7a/pYFIiGXU.jpg?width=808&height=505, https://resources.premierleague.com/photos/2024/04/17/2617646a-bb1c-46cd-baf9-a4b7038e5d7a/pYFIiGXU.jpg?width=1616&height=1010 2x, https://resources.premierleague.com/photos/2024/04/17/2617646a-bb1c-46cd-baf9-a4b7038e5d7a/pYFIiGXU.jpg?width=2424&height=1515 3x" media="(max-width: 839px)">
+                    <source class="" srcset="https://resources.premierleague.com/photos/2024/04/17/2617646a-bb1c-46cd-baf9-a4b7038e5d7a/pYFIiGXU.jpg?width=451&height=268, https://resources.premierleague.com/photos/2024/04/17/2617646a-bb1c-46cd-baf9-a4b7038e5d7a/pYFIiGXU.jpg?width=902&height=536 2x, https://resources.premierleague.com/photos/2024/04/17/2617646a-bb1c-46cd-baf9-a4b7038e5d7a/pYFIiGXU.jpg?width=1353&height=804 3x" media="(min-width: 840px)">
+                    <img class=" js-faded-image fade-in-on-load object-fit-cover-picture__img" src="https://resources.premierleague.com/photos/2024/04/17/2617646a-bb1c-46cd-baf9-a4b7038e5d7a/pYFIiGXU.jpg?width=451&height=268" alt="Footy Triv: Beat the players in our A-Z quiz of Premier League clubs!" title="Footy Triv: Beat the players in our A-Z quiz of Premier League clubs!" style="">
+        </picture>
+    </div>
+ -->
+                </div>
+                <div class="media-thumbnail__meta-tag">
+                 <svg aria-hidden="true" class="icon media-thumbnail__meta-tag-icon">
+                  <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-play" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  </use>
+                 </svg>
+                 08:12
+                </div>
+               </div>
+              </header>
+              <div class="media-thumbnail__content">
+               <span class="media-thumbnail__tag">
+                Video
+               </span>
+               <div class="media-thumbnail__video-tags">
+               </div>
+               <span class="media-thumbnail__title">
+                Trivia time: Beat the players in our A-Z quiz of Premier League clubs!
+               </span>
+              </div>
+             </a>
+            </article>
+           </div>
+           <div class="editorial-list__item">
+            <article class="media-thumbnail" data-widget="lazy-load-images">
+             <a class="media-thumbnail__link js-gtm-tracking" data-content-opta-id="" data-content-type="video" data-is-external="false" data-title="Things you may have missed in Matchweek 33" data-ui-args="{&quot;contentId&quot;: 3970837, &quot;mediaId&quot;:6351092247112, &quot;mediaTitle&quot;:&quot;Things you may have missed in Matchweek 33&quot;, &quot;mediaCategory&quot;:&quot;Video: &quot;, &quot;mediaDescription&quot;:&quot;Incredible saves, a supporter joining the celebrations, Dan Burn's special message for deaf fans and more - how many did you spot?&quot;, &quot;mediaDate&quot;:&quot;2024-04-17T13:42:00Z&quot;,&quot;mediaDuration&quot;:&quot;01:42 &quot;,&quot;mediaHotlinkUrl&quot;:&quot;&quot;, &quot;mediaHotlinkText&quot;:&quot;&quot;}" data-ui-modal="#videoPlayer" data-widget="media-thumbnail-tracking" href="/video/single/3970837?FOOTBALL_CLUBS=23,2" target="_blank" title="Things you may have missed in Matchweek 33">
+              <header class="media-thumbnail__header">
+               <div class="media-thumbnail__image-container placeholder">
+                <div class="js-lazy-load u-observed lazy-image-wrapper">
+                 <!--     <div class="picture-wrapper">
+        <picture class=" object-fit-cover-picture ">
+                    <source class="" srcset="https://resources.premierleague.com/photos/2024/04/17/92dba685-251e-4dd3-bb60-18eaa45add06/7voMrtlY.jpg?width=344&height=215, https://resources.premierleague.com/photos/2024/04/17/92dba685-251e-4dd3-bb60-18eaa45add06/7voMrtlY.jpg?width=688&height=430 2x, https://resources.premierleague.com/photos/2024/04/17/92dba685-251e-4dd3-bb60-18eaa45add06/7voMrtlY.jpg?width=1032&height=645 3x" media="(max-width: 640px)">
+                    <source class="" srcset="https://resources.premierleague.com/photos/2024/04/17/92dba685-251e-4dd3-bb60-18eaa45add06/7voMrtlY.jpg?width=808&height=505, https://resources.premierleague.com/photos/2024/04/17/92dba685-251e-4dd3-bb60-18eaa45add06/7voMrtlY.jpg?width=1616&height=1010 2x, https://resources.premierleague.com/photos/2024/04/17/92dba685-251e-4dd3-bb60-18eaa45add06/7voMrtlY.jpg?width=2424&height=1515 3x" media="(max-width: 839px)">
+                    <source class="" srcset="https://resources.premierleague.com/photos/2024/04/17/92dba685-251e-4dd3-bb60-18eaa45add06/7voMrtlY.jpg?width=451&height=268, https://resources.premierleague.com/photos/2024/04/17/92dba685-251e-4dd3-bb60-18eaa45add06/7voMrtlY.jpg?width=902&height=536 2x, https://resources.premierleague.com/photos/2024/04/17/92dba685-251e-4dd3-bb60-18eaa45add06/7voMrtlY.jpg?width=1353&height=804 3x" media="(min-width: 840px)">
+                    <img class=" js-faded-image fade-in-on-load object-fit-cover-picture__img" src="https://resources.premierleague.com/photos/2024/04/17/92dba685-251e-4dd3-bb60-18eaa45add06/7voMrtlY.jpg?width=451&height=268" alt="Things you may have missed in Matchweek 33" title="Things you may have missed in Matchweek 33" style="">
+        </picture>
+    </div>
+ -->
+                </div>
+                <div class="media-thumbnail__meta-tag">
+                 <svg aria-hidden="true" class="icon media-thumbnail__meta-tag-icon">
+                  <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-play" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  </use>
+                 </svg>
+                 01:41
+                </div>
+               </div>
+              </header>
+              <div class="media-thumbnail__content">
+               <span class="media-thumbnail__tag">
+                Video
+               </span>
+               <div class="media-thumbnail__video-tags">
+               </div>
+               <span class="media-thumbnail__title">
+                Things you may have missed in Matchweek 33
+               </span>
+              </div>
+             </a>
+            </article>
+           </div>
+           <div class="editorial-list__item">
+            <article class="media-thumbnail" data-widget="lazy-load-images">
+             <a class="media-thumbnail__link js-gtm-tracking" data-content-opta-id="" data-content-type="video" data-is-external="false" data-title="Watch: How the title race swung Man City's way in Matchweek 33" data-ui-args="{&quot;contentId&quot;: 3970299, &quot;mediaId&quot;:6351036230112, &quot;mediaTitle&quot;:&quot;Watch: How the title race swung Man City's way in Matchweek 33&quot;, &quot;mediaCategory&quot;:&quot;Video: &quot;, &quot;mediaDescription&quot;:&quot;Man City started last weekend behind Arsenal and Liverpool, and ended it above them both. Here's how a dramatic two days unfolded&quot;, &quot;mediaDate&quot;:&quot;2024-04-16T16:55:00Z&quot;,&quot;mediaDuration&quot;:&quot;03:21 &quot;,&quot;mediaHotlinkUrl&quot;:&quot;&quot;, &quot;mediaHotlinkText&quot;:&quot;&quot;}" data-ui-modal="#videoPlayer" data-widget="media-thumbnail-tracking" href="/video/single/3970299?FOOTBALL_CLUBS=11,2,6" target="_blank" title="Watch: How the title race swung Man City's way in Matchweek 33">
+              <header class="media-thumbnail__header">
+               <div class="media-thumbnail__image-container placeholder">
+                <div class="js-lazy-load u-observed lazy-image-wrapper">
+                 <!--     <div class="picture-wrapper">
+        <picture class=" object-fit-cover-picture ">
+                    <source class="" srcset="https://resources.premierleague.com/photos/2024/04/16/1280566e-1b1c-4e8c-8a5e-815d4f678be8/4VUWT9he.jpg?width=344&height=215, https://resources.premierleague.com/photos/2024/04/16/1280566e-1b1c-4e8c-8a5e-815d4f678be8/4VUWT9he.jpg?width=688&height=430 2x, https://resources.premierleague.com/photos/2024/04/16/1280566e-1b1c-4e8c-8a5e-815d4f678be8/4VUWT9he.jpg?width=1032&height=645 3x" media="(max-width: 640px)">
+                    <source class="" srcset="https://resources.premierleague.com/photos/2024/04/16/1280566e-1b1c-4e8c-8a5e-815d4f678be8/4VUWT9he.jpg?width=808&height=505, https://resources.premierleague.com/photos/2024/04/16/1280566e-1b1c-4e8c-8a5e-815d4f678be8/4VUWT9he.jpg?width=1616&height=1010 2x, https://resources.premierleague.com/photos/2024/04/16/1280566e-1b1c-4e8c-8a5e-815d4f678be8/4VUWT9he.jpg?width=2424&height=1515 3x" media="(max-width: 839px)">
+                    <source class="" srcset="https://resources.premierleague.com/photos/2024/04/16/1280566e-1b1c-4e8c-8a5e-815d4f678be8/4VUWT9he.jpg?width=451&height=268, https://resources.premierleague.com/photos/2024/04/16/1280566e-1b1c-4e8c-8a5e-815d4f678be8/4VUWT9he.jpg?width=902&height=536 2x, https://resources.premierleague.com/photos/2024/04/16/1280566e-1b1c-4e8c-8a5e-815d4f678be8/4VUWT9he.jpg?width=1353&height=804 3x" media="(min-width: 840px)">
+                    <img class=" js-faded-image fade-in-on-load object-fit-cover-picture__img" src="https://resources.premierleague.com/photos/2024/04/16/1280566e-1b1c-4e8c-8a5e-815d4f678be8/4VUWT9he.jpg?width=451&height=268" alt="Watch: How the title race swung Man City's way in Matchweek 33" title="Watch: How the title race swung Man City's way in Matchweek 33" style="">
+        </picture>
+    </div>
+ -->
+                </div>
+                <div class="media-thumbnail__meta-tag">
+                 <svg aria-hidden="true" class="icon media-thumbnail__meta-tag-icon">
+                  <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-play" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  </use>
+                 </svg>
+                 03:20
+                </div>
+               </div>
+              </header>
+              <div class="media-thumbnail__content">
+               <span class="media-thumbnail__tag">
+                Video
+               </span>
+               <div class="media-thumbnail__video-tags">
+               </div>
+               <span class="media-thumbnail__title">
+                Watch: How the title race swung Man City's way in Matchweek 33
+               </span>
+              </div>
+             </a>
+            </article>
+           </div>
+          </div>
+         </section>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="searchOverlay js-search-overlay">
+     </div>
+    </div>
+    <nav class="subNav js-sub-nav" role="menubar">
+     <ul>
+      <li>
+       <a class="" data-link-index="0" href="/" role="menuitem">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="" data-link-index="1" href="/fixtures" role="menuitem">
+        Fixtures
+       </a>
+      </li>
+      <li>
+       <a class="" data-link-index="2" href="/results" role="menuitem">
+        Results
+       </a>
+      </li>
+      <li>
+       <a class="" data-link-index="3" href="/tables" role="menuitem">
+        Tables
+       </a>
+      </li>
+      <li>
+       <a class="" data-link-index="4" href="/latest-player-injuries" role="menuitem">
+        Injury News
+       </a>
+      </li>
+      <li>
+       <a class="" data-link-index="5" href="/transfers" role="menuitem">
+        Transfers
+       </a>
+      </li>
+      <li>
+       <a class="hideNavDropdown active" data-link-index="6" href="/stats" role="menuitem">
+        Stats
+       </a>
+      </li>
+      <li>
+       <a class="" data-link-index="7" href="/news" role="menuitem">
+        News
+       </a>
+      </li>
+      <li>
+       <a class="" data-link-index="8" href="/video" role="menuitem">
+        Video
+       </a>
+      </li>
+      <li>
+       <a class="" data-link-index="9" href="/broadcast-schedules" role="menuitem">
+        Watch Live
+       </a>
+      </li>
+      <li>
+       <a class="" data-link-index="10" href="/clubs" role="menuitem">
+        Clubs
+       </a>
+      </li>
+      <li>
+       <a class="" data-link-index="11" href="/players" role="menuitem">
+        Players
+       </a>
+      </li>
+      <li>
+       <a class="" data-link-index="12" href="/awards" role="menuitem">
+        Awards
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main id="mainContent" tabindex="0">
+   <!-- /131332370/GeneralTakeover_0 -->
+   <div class="ad-takeover js-ad-takeover">
+    <nav class="navBar">
+     <a class="plLogo" href="#!" id="logoClose">
+      <img alt="Premier League Logo" src="/resources/prod/v6.122.4-6039/i/elements/premier-league-logo-header-full.png"/>
+     </a>
+     <a class="closeBtn" href="#!" id="advertClose">
+      <svg aria-hidden="true" class="icon icn">
+       <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-close" xmlns:xlink="http://www.w3.org/1999/xlink">
+       </use>
+      </svg>
+      Close Advert
+     </a>
+    </nav>
+    <div class="DFP-takeover" id="div-gpt-ad-1503491171981-0" style="display: none;">
+    </div>
+    <script type="text/javascript">
+     var getCookie = function(name){
+                var i, x, y, ARRcookies = document.cookie.split(";");
+                for (i = 0; i < ARRcookies.length; i++) {
+                    x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+                    y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+                    x = x.replace(/^\s+|\s+$/g, "");
+                    if (x == name) {
+                        return unescape(y);
+                    }
+                }
+            };
+        
+            let takeoverClosedCookie = getCookie('takeoverClosed');
+            
+            if ( typeof takeoverClosedCookie === 'undefined' || takeoverClosedCookie !== 'true' ) {
+                // GOOGLE ADS SCRIPT
+                var adWrap = document.querySelector('.js-ad-takeover');
+                var slotId = '/131332370/GeneralTakeover_0';
+
+                googletag.cmd.push(function() { 
+                    var mapping = googletag.sizeMapping(). 
+                    addSize([0, 0], []). 
+                    addSize([200, 300], [[320, 50], [320, 480]]).
+                    addSize([450, 300], [[320, 50], [1600, 900]]).      
+                    addSize([750, 300], [[728, 90], [1600, 900]]). 
+                    addSize([990, 300], [[1600, 900], [970, 250], [728, 90]]).build();
+
+                    googletag.defineSlot('/131332370/GeneralTakeover', [
+                        [1600, 900], 
+                        [320, 480]
+                    ], 'div-gpt-ad-1503491171981-0').
+                        defineSizeMapping(mapping).
+                        addService(googletag.pubads());
+                    
+                    googletag.pubads().addEventListener('slotRenderEnded', function (event) {
+                        
+                        if ( slotId === event.slot.getSlotId().toString() ) {
+                            if (event.isEmpty) {
+                                adWrap.style.display = 'none';
+                            } else {
+                                adWrap.style.display = 'block';
+                            }
+                        }
+                    });
+
+                    googletag.display('div-gpt-ad-1503491171981-0');
+
+                });
+
+                // PULSELIVE SCRIPT
+                var closeBtn = document.getElementById('advertClose');
+                var closeLogo = document.getElementById('logoClose');
+
+                var setCookie = function( name, data, expiry, domain ){
+                    var exdate = new Date();
+                    
+                    if( expiry instanceof Date ) {
+                        exdate = expiry;
+                    } else {
+                        exdate.setDate(exdate.getDate() + expiry);
+                    }
+
+                    var c_value = escape(data) + ((expiry === null) ? "" : "; expires=" + exdate.toUTCString()) + ";";
+                    var domain_value = domain ? " domain=" + ( domain || window.location.host ) + ";" : "";
+                    document.cookie = name + "=" + c_value + domain_value + " path=/";
+                };
+
+                closeBtn.addEventListener('click', function( e ){
+                    e.preventDefault();
+                    adWrap.innerHTML = "";
+                    adWrap.style.width = 0;
+                    adWrap.style.height = 0;
+
+                    setCookie( "takeoverClosed", true, 1, document.location.hostname )
+                });
+
+                closeLogo.addEventListener('click', function( e ){
+                    e.preventDefault();
+                    adWrap.innerHTML = "";
+                    adWrap.style.width = 0; 
+                    adWrap.style.height = 0;
+
+                    setCookie( "takeoverClosed", true, 1, document.location.hostname )
+                });
+
+                adWrap.addEventListener( 'click', function( e ) {
+                    setCookie( "takeoverClosed", true, 1, document.location.hostname )
+                } )
+            }
+    </script>
+   </div>
+   <header class="page-header page-header--stats">
+    <div class="page-header__wrapper wrapper">
+     <h1 class="page-header__title">
+      Stats Centre
+     </h1>
+     <img alt="oracle_logo" class="page-header__sponsor-image" src="https://resources.premierleague.com/photos/2023/05/25/abdb76a9-6cf0-4979-8a0e-9c42b7847647/oracle_logo.png?width=800&amp;height="/>
+    </div>
+   </header>
+   <nav class="generic-tabs-nav generic-tabs-nav--page-header wrapper" data-script="pl_tabs" data-widget="generic-tabs-nav">
+    <ul class="tablist generic-tabs-nav__nav" role="tablist">
+     <li class="tab generic-tabs-nav__tab">
+      <a class="generic-tabs-nav__link" data-link-index="0" data-text="Dashboard" href="/stats" role="tab">
+       Dashboard
+      </a>
+     </li>
+     <li class="tab generic-tabs-nav__tab">
+      <a class="generic-tabs-nav__link" data-link-index="1" data-text="Player Stats" href="/stats/top/players/goals" role="tab">
+       Player Stats
+      </a>
+     </li>
+     <li class="tab generic-tabs-nav__tab is-active">
+      <a class="is-active generic-tabs-nav__link" data-link-index="2" data-text="Club Stats" href="/stats/top/clubs/wins" role="tab">
+       Club Stats
+      </a>
+     </li>
+     <li class="tab generic-tabs-nav__tab">
+      <a class="generic-tabs-nav__link" data-link-index="3" data-text="All-time Stats" href="/stats/all-time" role="tab">
+       All-time Stats
+      </a>
+     </li>
+     <li class="tab generic-tabs-nav__tab">
+      <a class="generic-tabs-nav__link" data-link-index="4" data-text="Milestones" href="/stats/milestones" role="tab">
+       Milestones
+      </a>
+     </li>
+     <li class="tab generic-tabs-nav__tab">
+      <a class="generic-tabs-nav__link" data-link-index="5" data-text="Records" href="/stats/records" role="tab">
+       Records
+      </a>
+     </li>
+     <li class="tab generic-tabs-nav__tab">
+      <a class="generic-tabs-nav__link" data-link-index="6" data-text="Head-to-Head" href="/stats/head-to-head" role="tab">
+       Head-to-Head
+      </a>
+     </li>
+     <li class="tab generic-tabs-nav__tab">
+      <a class="generic-tabs-nav__link" data-link-index="7" data-text="Player Comparison" href="/stats/player-comparison" role="tab">
+       Player Comparison
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="wrapper col-12">
+    <div data-comp-seasons="578" data-current-size="10" data-num-entries="20" data-page="0" data-page-size="10" data-script="pl_stats" data-stat="wins" data-type="team" data-widget="stats-table">
+     <header class="widget-header">
+      <h2 class="widget-header__title">
+       2023/24 Club Stats
+      </h2>
+     </header>
+     <div class="dropDown noLabel topStatsFilterDropdown js-stats-dropdown">
+      <div class="label js-dropdown-label">
+       Filter by Stat Type
+      </div>
+      <div class="current currentStatContainer" data-metric="wins" tabindex="0">
+       Wins
+      </div>
+      <div class="dropdownListContainer">
+       <header class="dropdownMobileHeader">
+        <button class="dropdownMobileHeaderButton js-dropdown-close">
+         <svg fill="none" height="10" viewbox="0 0 16 10" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M0.926016 5.01732C0.938708 4.74167 1.02892 4.45424 1.24084 4.2603C1.24115 4.2603 1.24146 4.25999 1.24177 4.25968L2.41825 3.0832L4.2987 1.20275L4.72967 0.771778C4.92345 0.577997 5.21305 0.458021 5.48669 0.456956C5.74963 0.456976 6.06328 0.573122 6.24376 0.771893C6.42982 0.975935 6.56952 1.24307 6.55869 1.52896C6.54662 1.81361 6.4499 2.07995 6.24387 2.28598L5.06429 3.46556L4.58402 3.94583L6.21051 3.9458C7.41328 3.94589 8.61854 3.94598 9.82007 3.94607C10.8582 3.94615 11.8938 3.94623 12.9329 3.9463C13.4355 3.94634 13.9419 3.94018 14.4445 3.94642L14.4662 3.94642C14.7425 3.94644 15.0278 4.06584 15.2233 4.26135C15.4099 4.44803 15.5486 4.75006 15.5382 5.01842C15.5257 5.29392 15.4355 5.58166 15.2234 5.77544C15.0116 5.96922 14.7541 6.09091 14.4664 6.09026L13.2214 6.09017L10.2539 6.0901L6.64415 6.08967C5.95579 6.08962 5.26743 6.08957 4.57938 6.08952L5.8131 7.32324L6.24444 7.75458C6.43825 7.94839 6.55811 8.23785 6.55938 8.51165C6.55924 8.77443 6.44314 9.08806 6.2444 9.26851C6.04038 9.45454 5.77342 9.59436 5.48753 9.58349C5.20413 9.56889 4.93575 9.47384 4.73047 9.26855L3.55055 8.08864L1.66997 6.20806L1.23878 5.77687C1.12916 5.66725 1.05132 5.5367 1.00031 5.39701C0.95115 5.27282 0.921219 5.14181 0.926016 5.01732Z" fill="#37003C" fill-rule="evenodd">
+          </path>
+         </svg>
+         <span>
+          Back
+         </span>
+        </button>
+        <h4>
+         Filter by Stat Type
+        </h4>
+       </header>
+       <ul class="dropdownList" role="listbox">
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="wins" role="option">
+          Wins
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="losses" role="option">
+          Losses
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="touches" role="option">
+          Touches
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="own_goals" role="option">
+          Own goals
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="total_yel_card" role="option">
+          Yellow cards
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="total_red_card" role="option">
+          Red cards
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="goals" role="option">
+          Goals
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="total_pass" role="option">
+          Passes
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="total_scoring_att" role="option">
+          Shots
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="total_offside" role="option">
+          Offsides
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="hit_woodwork" role="option">
+          Hit woodwork
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="big_chance_missed" role="option">
+          Big chances missed
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="total_tackle" role="option">
+          Tackles
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="total_clearance" role="option">
+          Clearances
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="clearance_off_line" role="option">
+          Clearances off line
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="dispossessed" role="option">
+          Dispossessed
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="clean_sheet" role="option">
+          Clean sheets
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="saves" role="option">
+          Saves
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="penalty_save" role="option">
+          Penalties Saved
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="total_high_claim" role="option">
+          High claims
+         </a>
+        </li>
+        <li class="top-stat-dropdown">
+         <a class="topStatsLink" href="punches" role="option">
+          Punches
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <section class="pageFilter col-12 stats-table-filter" data-filter-config="rankedstats" data-reset-available="true" data-use-history="true">
+     </section>
+     <div class="table playerIndex statsTable teamStatsTable stats-table">
+      <h1 class="stats-table__header">
+       Wins
+      </h1>
+      <table>
+       <summary class="visuallyHidden">
+        This table ranks teams based on the currently selected stat type
+       </summary>
+       <thead>
+        <tr>
+         <th class="stats-table__header-rank" scope="col">
+          Rank
+         </th>
+         <th scope="col">
+          Club
+         </th>
+         <th class="stats-table__header-stat" scope="col">
+          Stat
+         </th>
+         <th class="table__order">
+          <span class="table__reorder-stats-button js-reorder-stats-button">
+           <span class="icn sort">
+           </span>
+          </span>
+         </th>
+        </tr>
+       </thead>
+       <tbody class="statsTableContainer">
+        <tr class="table__row">
+         <td class="stats-table__rank">
+          1.
+         </td>
+         <td class="stats-table__name" scope="row">
+          <a class="stats-table__cell-icon-align" href="/clubs/1/Arsenal/overview">
+           <span class="badge badge-image-container" data-size="25" data-widget="club-badge-image">
+            <img class="badge-image badge-image--25 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/25/t3.png" srcset="https://resources.premierleague.com/premierleague/badges/25/t3@x2.png 2x">
+            </img>
+           </span>
+           Arsenal
+          </a>
+         </td>
+         <td class="stats-table__main-stat">
+          22
+         </td>
+         <td>
+         </td>
+        </tr>
+        <tr class="table__row">
+         <td class="stats-table__rank">
+          1.
+         </td>
+         <td class="stats-table__name" scope="row">
+          <a class="stats-table__cell-icon-align" href="/clubs/11/Manchester-City/overview">
+           <span class="badge badge-image-container" data-size="25" data-widget="club-badge-image">
+            <img class="badge-image badge-image--25 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/25/t43.png" srcset="https://resources.premierleague.com/premierleague/badges/25/t43@x2.png 2x">
+            </img>
+           </span>
+           Manchester City
+          </a>
+         </td>
+         <td class="stats-table__main-stat">
+          22
+         </td>
+         <td>
+         </td>
+        </tr>
+        <tr class="table__row">
+         <td class="stats-table__rank">
+          3.
+         </td>
+         <td class="stats-table__name" scope="row">
+          <a class="stats-table__cell-icon-align" href="/clubs/10/Liverpool/overview">
+           <span class="badge badge-image-container" data-size="25" data-widget="club-badge-image">
+            <img class="badge-image badge-image--25 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/25/t14.png" srcset="https://resources.premierleague.com/premierleague/badges/25/t14@x2.png 2x">
+            </img>
+           </span>
+           Liverpool
+          </a>
+         </td>
+         <td class="stats-table__main-stat">
+          21
+         </td>
+         <td>
+         </td>
+        </tr>
+        <tr class="table__row">
+         <td class="stats-table__rank">
+          4.
+         </td>
+         <td class="stats-table__name" scope="row">
+          <a class="stats-table__cell-icon-align" href="/clubs/2/Aston-Villa/overview">
+           <span class="badge badge-image-container" data-size="25" data-widget="club-badge-image">
+            <img class="badge-image badge-image--25 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/25/t7.png" srcset="https://resources.premierleague.com/premierleague/badges/25/t7@x2.png 2x"/>
+           </span>
+           Aston Villa
+          </a>
+         </td>
+         <td class="stats-table__main-stat">
+          19
+         </td>
+         <td>
+         </td>
+        </tr>
+        <tr class="table__row">
+         <td class="stats-table__rank">
+          5.
+         </td>
+         <td class="stats-table__name" scope="row">
+          <a class="stats-table__cell-icon-align" href="/clubs/21/Tottenham-Hotspur/overview">
+           <span class="badge badge-image-container" data-size="25" data-widget="club-badge-image">
+            <img class="badge-image badge-image--25 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/25/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/25/t6@x2.png 2x"/>
+           </span>
+           Tottenham Hotspur
+          </a>
+         </td>
+         <td class="stats-table__main-stat">
+          18
+         </td>
+         <td>
+         </td>
+        </tr>
+        <tr class="table__row">
+         <td class="stats-table__rank">
+          6.
+         </td>
+         <td class="stats-table__name" scope="row">
+          <a class="stats-table__cell-icon-align" href="/clubs/12/Manchester-United/overview">
+           <span class="badge badge-image-container" data-size="25" data-widget="club-badge-image">
+            <img class="badge-image badge-image--25 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/25/t1.png" srcset="https://resources.premierleague.com/premierleague/badges/25/t1@x2.png 2x"/>
+           </span>
+           Manchester United
+          </a>
+         </td>
+         <td class="stats-table__main-stat">
+          15
+         </td>
+         <td>
+         </td>
+        </tr>
+        <tr class="table__row">
+         <td class="stats-table__rank">
+          6.
+         </td>
+         <td class="stats-table__name" scope="row">
+          <a class="stats-table__cell-icon-align" href="/clubs/23/Newcastle-United/overview">
+           <span class="badge badge-image-container" data-size="25" data-widget="club-badge-image">
+            <img class="badge-image badge-image--25 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/25/t4.png" srcset="https://resources.premierleague.com/premierleague/badges/25/t4@x2.png 2x"/>
+           </span>
+           Newcastle United
+          </a>
+         </td>
+         <td class="stats-table__main-stat">
+          15
+         </td>
+         <td>
+         </td>
+        </tr>
+        <tr class="table__row">
+         <td class="stats-table__rank">
+          8.
+         </td>
+         <td class="stats-table__name" scope="row">
+          <a class="stats-table__cell-icon-align" href="/clubs/4/Chelsea/overview">
+           <span class="badge badge-image-container" data-size="25" data-widget="club-badge-image">
+            <img class="badge-image badge-image--25 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/25/t8.png" srcset="https://resources.premierleague.com/premierleague/badges/25/t8@x2.png 2x"/>
+           </span>
+           Chelsea
+          </a>
+         </td>
+         <td class="stats-table__main-stat">
+          13
+         </td>
+         <td>
+         </td>
+        </tr>
+        <tr class="table__row">
+         <td class="stats-table__rank">
+          8.
+         </td>
+         <td class="stats-table__name" scope="row">
+          <a class="stats-table__cell-icon-align" href="/clubs/25/West-Ham-United/overview">
+           <span class="badge badge-image-container" data-size="25" data-widget="club-badge-image">
+            <img class="badge-image badge-image--25 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/25/t21.png" srcset="https://resources.premierleague.com/premierleague/badges/25/t21@x2.png 2x"/>
+           </span>
+           West Ham United
+          </a>
+         </td>
+         <td class="stats-table__main-stat">
+          13
+         </td>
+         <td>
+         </td>
+        </tr>
+        <tr class="table__row">
+         <td class="stats-table__rank">
+          10.
+         </td>
+         <td class="stats-table__name" scope="row">
+          <a class="stats-table__cell-icon-align" href="/clubs/34/Fulham/overview">
+           <span class="badge badge-image-container" data-size="25" data-widget="club-badge-image">
+            <img class="badge-image badge-image--25 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/25/t54.png" srcset="https://resources.premierleague.com/premierleague/badges/25/t54@x2.png 2x"/>
+           </span>
+           Fulham
+          </a>
+         </td>
+         <td class="stats-table__main-stat">
+          12
+         </td>
+         <td>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <div class="paginationContainer">
+     </div>
+    </div>
+    <div class="more-stats">
+     <div class="more-stats__container">
+      <nav class="more-stats__menu">
+       <h3 class="more-stats__header">
+        General
+       </h3>
+       <ul class="more-stats__list">
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/wins" target="_self">
+          Wins
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/losses" target="_self">
+          Losses
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/goals" target="_self">
+          Goals
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/total_yel_card" target="_self">
+          Yellow Cards
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/total_red_card" target="_self">
+          Red Cards
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+       </ul>
+      </nav>
+     </div>
+     <div class="more-stats__container">
+      <nav class="more-stats__menu">
+       <h3 class="more-stats__header">
+        Attack
+       </h3>
+       <ul class="more-stats__list">
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/total_scoring_att" target="_self">
+          Shots
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/ontarget_scoring_att" target="_self">
+          Shots On Target
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/hit_woodwork" target="_self">
+          Hit Woodwork
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/att_hd_goal" target="_self">
+          Goals From Header
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/att_pen_goal" target="_self">
+          Goals From Penalty
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/att_freekick_goal" target="_self">
+          Goals From Freekick
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/att_ibox_goal" target="_self">
+          Goals From Inside Box
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/att_obox_goal" target="_self">
+          Goals From Outside Box
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/goal_fastbreak" target="_self">
+          Goals From Counter Attack
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/total_offside" target="_self">
+          Offsides
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+       </ul>
+      </nav>
+     </div>
+     <div class="more-stats__container">
+      <nav class="more-stats__menu">
+       <h3 class="more-stats__header">
+        Defence
+       </h3>
+       <ul class="more-stats__list">
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/clean_sheet" target="_self">
+          Clean Sheets
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/goals_conceded" target="_self">
+          Goals Conceded
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/saves" target="_self">
+          Saves
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/outfielder_block" target="_self">
+          Blocks
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/interception" target="_self">
+          Interceptions
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/total_tackle" target="_self">
+          Tackles
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/last_man_tackle" target="_self">
+          Last Man Tackles
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/total_clearance" target="_self">
+          Clearances
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/head_clearance" target="_self">
+          Headed Clearances
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/offside_provoked" target="_self">
+          Caught Opponent Offside
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/own_goals" target="_self">
+          Own Goals
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/penalty_conceded" target="_self">
+          Penalties Conceded
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/pen_goals_conceded" target="_self">
+          Goals Conceded From Penalty
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/fouls" target="_self">
+          Fouls
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+       </ul>
+      </nav>
+     </div>
+     <div class="more-stats__container">
+      <nav class="more-stats__menu">
+       <h3 class="more-stats__header">
+        Team Play
+       </h3>
+       <ul class="more-stats__list">
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/total_pass" target="_self">
+          Passes
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/total_through_ball" target="_self">
+          Through Balls
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/total_long_balls" target="_self">
+          Long Passes
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/backward_pass" target="_self">
+          Backwards Passes
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/total_cross" target="_self">
+          Crosses
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+        <li class="more-stats__item">
+         <a class="more-stats__link" href="/stats/top/clubs/corner_taken" target="_self">
+          Corners Taken
+          <svg aria-hidden="true" class="icon more-stats__icon">
+           <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+           </use>
+          </svg>
+         </a>
+        </li>
+       </ul>
+      </nav>
+     </div>
+    </div>
+    <section class="notification-promo wrapper">
+     <a class="notification-promo__link" href="/stats/clarification">
+      <div class="notification-promo__title">
+       Some statistics are not available prior to the 2006/07 season. Click here for more details.
+      </div>
+      <div class="notification-promo__icon-container">
+       <svg class="">
+        <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink">
+        </use>
+       </svg>
+      </div>
+     </a>
+    </section>
+   </div>
+  </main>
+  <footer class="mainFooter">
+   <div class="footer-sponsors">
+    <ul class="footer-sponsors__list">
+     <li class="footer-sponsors__sponsor">
+      <a class="footer-sponsors__link" href="https://www.ea.com/en-gb/games/ea-sports-fc" target="_blank">
+       <picture class="footer-sponsors__sponsor-image picture">
+        <source class="footer-sponsors__image" media="" srcset="https://resources.premierleague.com/photos/2023/04/06/c9fc1dca-fe99-40ab-ab41-be1979ee852d/ea_sports_black_435_x_290_360.png?width=217.5&amp;height=145, https://resources.premierleague.com/photos/2023/04/06/c9fc1dca-fe99-40ab-ab41-be1979ee852d/ea_sports_black_435_x_290_360.png?width=435&amp;height=290 2x"/>
+        <img alt="ea_sports_black_435_x_290_360" class="footer-sponsors__image picture__img" loading="lazy" src="https://resources.premierleague.com/photos/2023/04/06/c9fc1dca-fe99-40ab-ab41-be1979ee852d/ea_sports_black_435_x_290_360.png?width=217.5&amp;height=145"/>
+       </picture>
+       <span class="footer-sponsors__sponsor-text">
+        Lead Partner
+       </span>
+      </a>
+     </li>
+     <li class="footer-sponsors__sponsor">
+      <a class="footer-sponsors__link" href="https://www.home.barclays" target="_blank">
+       <picture class="footer-sponsors__sponsor-image picture">
+        <source class="footer-sponsors__image" media="" srcset="https://resources.premierleague.com/photos/2023/01/26/11fe030b-2b2e-41ed-8f34-be72a8403ea0/Barclays_Sponsor.png?width=115&amp;height=40, https://resources.premierleague.com/photos/2023/01/26/11fe030b-2b2e-41ed-8f34-be72a8403ea0/Barclays_Sponsor.png?width=230&amp;height=80 2x"/>
+        <img alt="Barclays_Sponsor" class="footer-sponsors__image picture__img" loading="lazy" src="https://resources.premierleague.com/photos/2023/01/26/11fe030b-2b2e-41ed-8f34-be72a8403ea0/Barclays_Sponsor.png?width=115&amp;height=40"/>
+       </picture>
+       <span class="footer-sponsors__sponsor-text">
+        Official Bank
+       </span>
+      </a>
+     </li>
+     <li class="footer-sponsors__sponsor">
+      <a class="footer-sponsors__link" href="https://www.budweiser.com" target="_blank">
+       <picture class="footer-sponsors__sponsor-image picture">
+        <source class="footer-sponsors__image" media="" srcset="https://resources.premierleague.com/photos/2023/11/28/812f7a8b-fa6c-4b49-841d-068b324ac71b/Bud_Sponsor.png?width=115&amp;height=40, https://resources.premierleague.com/photos/2023/11/28/812f7a8b-fa6c-4b49-841d-068b324ac71b/Bud_Sponsor.png?width=230&amp;height=80 2x"/>
+        <img alt="Bud_Sponsor" class="footer-sponsors__image picture__img" loading="lazy" src="https://resources.premierleague.com/photos/2023/11/28/812f7a8b-fa6c-4b49-841d-068b324ac71b/Bud_Sponsor.png?width=115&amp;height=40"/>
+       </picture>
+       <span class="footer-sponsors__sponsor-text">
+        Official Beer
+       </span>
+      </a>
+     </li>
+     <li class="footer-sponsors__sponsor">
+      <a class="footer-sponsors__link" href="https://www.castrol.com/en_gb/united-kingdom/home.html" target="_blank">
+       <picture class="footer-sponsors__sponsor-image picture">
+        <source class="footer-sponsors__image" media="" srcset="https://resources.premierleague.com/photos/2023/06/02/9e65648a-c1b7-4b14-9f80-80fa2dca1dff/Castrol_New.png?width=200&amp;height=83, https://resources.premierleague.com/photos/2023/06/02/9e65648a-c1b7-4b14-9f80-80fa2dca1dff/Castrol_New.png?width=400&amp;height=166 2x"/>
+        <img alt="Castrol_New" class="footer-sponsors__image picture__img" loading="lazy" src="https://resources.premierleague.com/photos/2023/06/02/9e65648a-c1b7-4b14-9f80-80fa2dca1dff/Castrol_New.png?width=200&amp;height=83"/>
+       </picture>
+       <span class="footer-sponsors__sponsor-text">
+        Official Engine Oil Partner
+       </span>
+      </a>
+     </li>
+     <li class="footer-sponsors__sponsor">
+      <a class="footer-sponsors__link" href="https://www.hublot.com" target="_blank">
+       <picture class="footer-sponsors__sponsor-image picture">
+        <source class="footer-sponsors__image" media="" srcset="https://resources.premierleague.com/photos/2023/01/26/737c3235-de74-4d72-a2fc-496365258f4b/Hublot_Sponsor.png?width=150&amp;height=75, https://resources.premierleague.com/photos/2023/01/26/737c3235-de74-4d72-a2fc-496365258f4b/Hublot_Sponsor.png?width=300&amp;height=150 2x"/>
+        <img alt="Hublot_Sponsor" class="footer-sponsors__image picture__img" loading="lazy" src="https://resources.premierleague.com/photos/2023/01/26/737c3235-de74-4d72-a2fc-496365258f4b/Hublot_Sponsor.png?width=150&amp;height=75"/>
+       </picture>
+       <span class="footer-sponsors__sponsor-text">
+        Official Timekeeper
+       </span>
+      </a>
+     </li>
+     <li class="footer-sponsors__sponsor">
+      <a class="footer-sponsors__link" href="https://www.nike.com/gb/w/mens-premier-league-accessories-equipment-2spkszawwpwznik1" target="_blank">
+       <picture class="footer-sponsors__sponsor-image picture">
+        <source class="footer-sponsors__image" media="" srcset="https://resources.premierleague.com/photos/2023/01/26/8016f9bd-4ca7-4a1a-8336-bf9eac81e265/Nike_Sponsor.png?width=111&amp;height=39, https://resources.premierleague.com/photos/2023/01/26/8016f9bd-4ca7-4a1a-8336-bf9eac81e265/Nike_Sponsor.png?width=222&amp;height=78 2x"/>
+        <img alt="Nike_Sponsor" class="footer-sponsors__image picture__img" loading="lazy" src="https://resources.premierleague.com/photos/2023/01/26/8016f9bd-4ca7-4a1a-8336-bf9eac81e265/Nike_Sponsor.png?width=111&amp;height=39"/>
+       </picture>
+       <span class="footer-sponsors__sponsor-text">
+        Official Ball
+       </span>
+      </a>
+     </li>
+     <li class="footer-sponsors__sponsor">
+      <a class="footer-sponsors__link" href="https://www.oracle.com/premier-league" target="_blank">
+       <picture class="footer-sponsors__sponsor-image picture">
+        <source class="footer-sponsors__image" media="" srcset="https://resources.premierleague.com/photos/2023/01/26/c3238a2c-d4af-48a2-9345-0b7a82c18cd8/Oracle_Sponsor.png?width=150&amp;height=75, https://resources.premierleague.com/photos/2023/01/26/c3238a2c-d4af-48a2-9345-0b7a82c18cd8/Oracle_Sponsor.png?width=300&amp;height=150 2x"/>
+        <img alt="Oracle_Sponsor" class="footer-sponsors__image picture__img" loading="lazy" src="https://resources.premierleague.com/photos/2023/01/26/c3238a2c-d4af-48a2-9345-0b7a82c18cd8/Oracle_Sponsor.png?width=150&amp;height=75"/>
+       </picture>
+       <span class="footer-sponsors__sponsor-text">
+        Official Cloud Partner
+       </span>
+      </a>
+     </li>
+     <li class="footer-sponsors__sponsor">
+      <a class="footer-sponsors__link" href="https://sport.averydennison.com/" target="_blank">
+       <picture class="footer-sponsors__sponsor-image picture">
+        <source class="footer-sponsors__image" media="" srcset="https://resources.premierleague.com/photos/2023/01/26/29bca766-5224-4166-b20b-3aac01e67fb9/AD_Sponsor.png?width=140&amp;height=45, https://resources.premierleague.com/photos/2023/01/26/29bca766-5224-4166-b20b-3aac01e67fb9/AD_Sponsor.png?width=280&amp;height=90 2x"/>
+        <img alt="AD_Sponsor" class="footer-sponsors__image picture__img" loading="lazy" src="https://resources.premierleague.com/photos/2023/01/26/29bca766-5224-4166-b20b-3aac01e67fb9/AD_Sponsor.png?width=140&amp;height=45"/>
+       </picture>
+       <span class="footer-sponsors__sponsor-text">
+        Official Licensee
+       </span>
+      </a>
+     </li>
+     <li class="footer-sponsors__sponsor">
+      <a class="footer-sponsors__link" href="https://www.panini.co.uk/" target="_blank">
+       <picture class="footer-sponsors__sponsor-image picture">
+        <source class="footer-sponsors__image" media="" srcset="https://resources.premierleague.com/photos/2023/01/26/e7f37045-a73d-4b09-bfab-93a20044b31a/Panini_Sponsor.png?width=150&amp;height=36.5, https://resources.premierleague.com/photos/2023/01/26/e7f37045-a73d-4b09-bfab-93a20044b31a/Panini_Sponsor.png?width=300&amp;height=73 2x"/>
+        <img alt="Panini_Sponsor" class="footer-sponsors__image picture__img" loading="lazy" src="https://resources.premierleague.com/photos/2023/01/26/e7f37045-a73d-4b09-bfab-93a20044b31a/Panini_Sponsor.png?width=150&amp;height=36.5"/>
+       </picture>
+       <span class="footer-sponsors__sponsor-text">
+        Official Licensee
+       </span>
+      </a>
+     </li>
+     <li class="footer-sponsors__sponsor">
+      <a class="footer-sponsors__link" href="https://sorare.com" target="_blank">
+       <picture class="footer-sponsors__sponsor-image picture">
+        <source class="footer-sponsors__image" media="" srcset="https://resources.premierleague.com/photos/2023/01/26/ad63a6a6-f669-42ba-900c-95a4baa78d06/Sorare_Sponsor.png?width=115&amp;height=40, https://resources.premierleague.com/photos/2023/01/26/ad63a6a6-f669-42ba-900c-95a4baa78d06/Sorare_Sponsor.png?width=230&amp;height=80 2x"/>
+        <img alt="Sorare_Sponsor" class="footer-sponsors__image picture__img" loading="lazy" src="https://resources.premierleague.com/photos/2023/01/26/ad63a6a6-f669-42ba-900c-95a4baa78d06/Sorare_Sponsor.png?width=115&amp;height=40"/>
+       </picture>
+       <span class="footer-sponsors__sponsor-text">
+        Official Licensee
+       </span>
+      </a>
+     </li>
+    </ul>
+   </div>
+   <div class="footerContent">
+    <div class="wrapper">
+     <div class="footerCol">
+      <h3 class="subHeader">
+       Premier League
+      </h3>
+      <ul class="list--premier-league" role="menu">
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/" role="menuitem" target="_self">
+         Home
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/fixtures" role="menuitem" target="_self">
+         Fixtures
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/results" role="menuitem" target="_self">
+         Results
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/tables" role="menuitem" target="_self">
+         Tables
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/stats" role="menuitem" target="_self">
+         Stats
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/news" role="menuitem" target="_self">
+         News
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/video" role="menuitem" target="_self">
+         Video
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/broadcast-schedules" role="menuitem" target="_self">
+         Watch Live
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/clubs" role="menuitem" target="_self">
+         Clubs
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/players" role="menuitem" target="_self">
+         Players
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/transfers" role="menuitem" target="_self">
+         Transfers
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/awards" role="menuitem" target="_self">
+         Awards
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="footerCol">
+      <h3 class="subHeader">
+       Fantasy
+      </h3>
+      <ul class="list--fantasy" role="menu">
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://fantasy.premierleague.com" role="menuitem" target="_blank">
+         FPL Home
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://fantasy.premierleague.com/a/team/my" role="menuitem" target="_blank">
+         My Team
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://fantasy.premierleague.com/a/squad/transfers" role="menuitem" target="_blank">
+         FPL Transfers
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://fantasy.premierleague.com/a/leagues/main" role="menuitem" target="_blank">
+         Leagues
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://fantasy.premierleague.com/a/fixtures" role="menuitem" target="_blank">
+         FPL Fixtures
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://fantasy.premierleague.com/a/statistics/total_points" role="menuitem" target="_blank">
+         Statistics
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://fantasy.premierleague.com/the-scout" role="menuitem" target="_blank">
+         The Scout
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://draft.premierleague.com/" role="menuitem" target="_blank">
+         FPL Draft
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+      </ul>
+     </div>
+     <div class="footerCol">
+      <h3 class="subHeader">
+       Football &amp; Community
+      </h3>
+      <ul class="list--football-&amp;-community" role="menu">
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/footballandcommunity/wider-football" role="menuitem" target="_self">
+         Wider Football
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/footballandcommunity/premier-league-charitable-fund" role="menuitem" target="_self">
+         PL Charitable Fund
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/footballandcommunity/community" role="menuitem" target="_self">
+         Community
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/footballandcommunity/youth-development" role="menuitem" target="_self">
+         Youth Development
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/footballandcommunity/NoRoomForRacism" role="menuitem" target="_self">
+         No Room for Racism
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/footballandcommunity/mental-health" role="menuitem" target="_self">
+         Mental Health
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/footballandcommunity/RainbowLaces" role="menuitem" target="_self">
+         Rainbow Laces
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/footballandcommunity/poppy" role="menuitem" target="_self">
+         Poppy
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="footerCol">
+      <h3 class="subHeader">
+       About
+      </h3>
+      <ul class="list--about" role="menu">
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/about" role="menuitem" target="_self">
+         Overview
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/about/what-we-do" role="menuitem" target="_self">
+         What we do
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/about/governance" role="menuitem" target="_self">
+         Governance
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/about/statement-of-principles" role="menuitem" target="_self">
+         Statement of Principles
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/about/inclusion" role="menuitem" target="_self">
+         Inclusion
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/about/publications" role="menuitem" target="_self">
+         Publications
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/about/partners" role="menuitem" target="_self">
+         Partners
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/about/legal" role="menuitem" target="_self">
+         Legal
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/about/safeguarding" role="menuitem" target="_self">
+         Safeguarding
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/about/careers" role="menuitem" target="_self">
+         Careers
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/about/media" role="menuitem" target="_self">
+         Media
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="footerCol">
+      <h3 class="subHeader">
+       Stats
+      </h3>
+      <ul class="list--stats" role="menu">
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/stats" role="menuitem" target="_self">
+         Dashboard
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/stats/top/players/goals?se=418" role="menuitem" target="_self">
+         Player Stats
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/stats/top/clubs/wins?se=418" role="menuitem" target="_self">
+         Club Stats
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/stats/all-time" role="menuitem" target="_self">
+         All-time Stats
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/stats/milestones" role="menuitem" target="_self">
+         Milestones
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/stats/records" role="menuitem" target="_self">
+         Records
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/stats/head-to-head" role="menuitem" target="_self">
+         Head-to-Head
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/stats/player-comparison" role="menuitem" target="_self">
+         Player Comparison
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/stats/awards" role="menuitem" target="_self">
+         Awards
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="footerCol">
+      <h3 class="subHeader">
+       More
+      </h3>
+      <ul class="list--more" role="menu">
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/history" role="menuitem" target="_self">
+         History
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/hall-of-fame" role="menuitem" target="_self">
+         Hall of Fame
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/PL30" role="menuitem" target="_self">
+         PL30
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/referees" role="menuitem" target="_self">
+         Referees
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/managers" role="menuitem" target="_self">
+         Managers
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/epl" role="menuitem" target="_self">
+         ePremier League
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/nike-ball-hub" role="menuitem" target="_self">
+         Nike Ball Hub
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/contact/faqs" role="menuitem" target="_self">
+         FAQs
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/contact" role="menuitem" target="_self">
+         Contact Us
+        </a>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="//www.premierleague.com/tickets" role="menuitem" target="_self">
+         Tickets
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="footerCol">
+      <h3 class="subHeader">
+       Social
+      </h3>
+      <ul class="list--social" role="menu">
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://www.youtube.com/premierleague" role="menuitem" target="_blank">
+         PL on YouTube
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://www.tiktok.com/@premierleague" role="menuitem" target="_blank">
+         PL on Tik Tok
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://www.facebook.com/premierleague" role="menuitem" target="_blank">
+         PL on Facebook
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://www.facebook.com/OfficialFPL/" role="menuitem" target="_blank">
+         FPL on Facebook
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://twitter.com/premierleague" role="menuitem" target="_blank">
+         PL on X
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://twitter.com/OfficialFPL" role="menuitem" target="_blank">
+         FPL on X
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://twitter.com/PLCommunities" role="menuitem" target="_blank">
+         PL Communities on X
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://twitter.com/PLYouth" role="menuitem" target="_blank">
+         PL Youth on X
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://www.instagram.com/premierleague" role="menuitem" target="_blank">
+         PL on Instagram
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://twitter.com/PLinUSA" role="menuitem" target="_blank">
+         PL USA on X
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://www.instagram.com/plinusa/" role="menuitem" target="_blank">
+         PL USA on Instagram
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://www.instagram.com/lapremierleague/" role="menuitem" target="_blank">
+         La Premier on Instagram
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://twitter.com/PLforIndia" role="menuitem" target="_blank">
+         PL India on X
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://www.instagram.com/plforindia/" role="menuitem" target="_blank">
+         PL India on Instagram
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://twitter.com/PLinArabic" role="menuitem" target="_blank">
+         PL Arabic on X
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://www.instagram.com/plinarabic/" role="menuitem" target="_blank">
+         PL Arabic on Instagram
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://www.tiktok.com/@lapremierleague" role="menuitem" target="_blank">
+         La Premier on TikTok
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+       <li class="footer-link-wrapper">
+        <a class="footer-link" href="https://open.spotify.com/user/plplaylists" role="menuitem" target="_blank">
+         PL Music on Spotify
+        </a>
+        <span class="icon">
+         <span class="visuallyHidden">
+          External Link
+         </span>
+         <svg class="svg">
+          <use xlink:href="https://www.premierleague.com/resources/rebrand/v7.142.5/i/svg-output/icons.svg#icn-external-square" xmlns:xlink="http://www.w3.org/1999/xlink">
+          </use>
+         </svg>
+        </span>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+   <div class="footerCorporate" data-script="pl_footer" data-widget="footer-corporate">
+    <div class="wrapper col-12">
+     <ul role="menu">
+      <li>
+       <strong>
+        © PREMIER LEAGUE 2024
+       </strong>
+      </li>
+      <li>
+       <a class="" href="//www.premierleague.com/modern-slavery-statement" role="menuitem">
+        Modern Slavery Statement
+       </a>
+      </li>
+      <li>
+       <a class="" href="//www.premierleague.com/equality-diversity-and-inclusion-standard" role="menuitem">
+        Equality, Diversity and Inclusion Standard
+       </a>
+      </li>
+      <li>
+       <a class="" href="//www.premierleague.com/terms-and-conditions" role="menuitem">
+        Terms &amp; Conditions
+       </a>
+      </li>
+      <li>
+       <a class="" href="//www.premierleague.com/premier-league-policies" role="menuitem">
+        Policies
+       </a>
+      </li>
+      <li>
+       <a class="" href="//www.premierleague.com/cookie-policy" role="menuitem">
+        Cookie Policy
+       </a>
+      </li>
+      <li>
+       <a class="" href="//www.premierleague.com#" role="menuitem">
+        Back To Top
+       </a>
+      </li>
+     </ul>
+     <div class="official">
+      <a class="footerCorporate__logo-container" href="/">
+       <img alt="Premier League" class="footerCorporate__logo" src="https://www.premierleague.com/resources/rebrand/v7.142.5/i/elements/pl-logo-full.svg"/>
+      </a>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script src="https://www.premierleague.com/resources/rebrand/v7.142.5/scripts/vendors.min.js">
+  </script>
+  <script src="https://www.premierleague.com/resources/rebrand/v7.142.5/scripts/main.min.js">
+  </script>
+  <script src="https://www.premierleague.com/resources/rebrand/v7.142.5/widgets/common.min.js">
+  </script>
+  <!-- S3 -->
+  <!-- Adform tracking code begin -->
+  <script type="text/javascript">
+   (function() {
+    var adfScr = document.createElement("script");
+    adfScr.src = "https://track.adform.net/serving/scripts/trackpoint/";
+    adfScr.onload = function() {
+        adf.container(998269, 'Master Tag');
+    };
+    document.head.appendChild(adfScr);
+})();
+  </script>
+  <!-- Adform tracking code end -->
+  <div data-chartbeat-uid="67021" data-page-section="Premier League" data-page-title="" data-script="pl_chartbeat" data-widget="chartbeat-generic">
+  </div>
+ </body>
+</html>

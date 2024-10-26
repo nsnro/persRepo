@@ -1,0 +1,7 @@
+Looking for a skilled individual to undertake data scraping project. Key tasks will involve
+
+- Focused on scraping 'Website 1'
+- Specific data requirement is 'price'
+- Data collection should be conducted periodically
+
+Ideal freelancers should be proficient in PHP, and have a track record in successful and ethical data scraping projects. Advise on suitable scraping schedule is appreciated. Efficiency and meticulous attention to detail are highly sought.
