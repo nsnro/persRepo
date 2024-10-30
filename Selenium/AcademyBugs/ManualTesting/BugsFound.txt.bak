@@ -1,0 +1,665 @@
+https://academybugs.com/find-bugs/
+Explore a practice test site that has 25 real bugs planted inside.
+
+Start 20:18
+___
+
+Severity: High
+
+Issue Type: Crash
+
+Frequency: Every Time
+
+Environment: All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Click on the buttons to show a certain number of results at the top left
+Expected Result
+The selected number of results is displayed according to the clicked buttons
+
+Actual Result
+The page freezes when clicking on the numbers of results
+
+___
+
+In this bug, the text under the New User section is not in English.
+
+Severity: Low
+
+Issue Type: Content
+
+Frequency: Every Time
+
+Environment: All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+Scroll down to the bottom of the right side menu
+Click "Sign In" to open the sign in page
+Expected Result
+The text under the New User section is in English
+
+Actual Result
+The text under the New User section is in another language
+
+___
+
+You found 3 bugs.
+In this bug, the page freezes when changing the currency.
+
+Severity
+High
+
+Issue Type
+Crash
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+Change the currency in the right side menu
+Expected Result
+The currency is changed as expected
+
+Actual Result
+The page freezes when changing the currency
+
+___
+
+You found 4 bugs.
+In this bug, the billing address loads infinitely.
+
+Severity
+Medium
+
+Issue Type
+Performance
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+Sign up if you are not signed up or log in at the bottom of right side menu
+At the bottom of the right side menu select Dashboard
+Scroll up to the Billing Address section
+Expected Result
+The Billing Address section shows appropriate info
+
+Actual Result
+The Billing Address section loads infinitely
+
+Attachments
+
+___
+
+#5 Great job! You found 5 bugs already, having fun?
+In this bug, the caption of the Sign In button is misaligned vertically.
+
+Severity
+Low
+
+Issue Type
+Visual
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+Scroll to the bottom and find the sign in form in the right side menu
+Enter any login and password that are not registered and click "Sign In"
+Expected Result
+The caption of the Sign In button is centered vertically
+
+Actual Result
+The caption of the Sign In button is misaligned vertically
+
+___
+
+
+You found 6 bugs.
+In this bug, the grand total is $100 more than the sum of all products in the cart.
+
+Severity
+Critical
+
+Issue Type
+Functional
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Add one or more products to the cart
+Click the "View cart" link on top of the page, or click "Continue to Shipping" in the checkout details page
+Expected Result
+The grand total is equal to the sum of all products in the cart
+
+Actual Result
+The grand total is $100 more than the sum of all products in the cart
+
+___
+
+You found 7 bugs.
+In this bug, the product quantity cannot be increased past 2.
+
+Severity
+High
+
+Issue Type
+Functional
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Add one or more products to the cart
+Click the "View cart" link on top of the page
+Set the products quantity to 3 or more
+Click "update" below
+Expected Result
+The product quantity can be increased past 2
+
+Actual Result
+When clicking on the update button the product quantity becomes 2 again
+
+___
+
+You found 8 bugs.
+In this bug, there is big space before the last letter in "Return to Store".
+
+Severity
+Low
+
+Issue Type
+Content
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+Open the cart at the bottom of right side menu
+Clear the cart if there are any items
+Expected Result
+The caption of the "Return to Store" button is written with even spacing between letters
+
+Actual Result
+There is too much space before the last letter in "Return to Store"
+
+___
+Did not even notice this one
+
+You found 9 bugs.
+In this bug, the image is not completely displayed.
+
+Severity
+Medium
+
+Issue Type
+Visual
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Click on "Dark Grey Jeans"
+Expected Result
+The product image fills the box entirely
+
+Actual Result
+The image has a white space on the right
+
+___
+
+#10 Way to go! You found 10 bugs, keep it up.
+In this bug, the short description and description of the product are not in English.
+
+Severity
+Medium
+
+Issue Type
+Content
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+Expected Result
+The short description and description of the product are in English
+
+Actual Result
+The short description and description of the product are not in English
+
+___
+
+
+You found 11 bugs.
+In this bug, the page becomes unresponsive when clicking on the Post Comment button.
+
+Severity
+High
+
+Issue Type
+Crash
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+Scroll down to the Leave a Reply section
+Fill out the comment form
+Click "Post Comment"
+Expected Result
+The comment is posted under the product
+
+Actual Result
+The page becomes unresponsive when clicking on "Post Comment"
+
+___
+
+You found 12 bugs.
+In this bug, the manufacturer link in the product details page is broken.
+
+Severity
+Medium
+
+Issue Type
+Functional
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+Click the manufacturer link under the quantity
+Expected Result
+The manufacturer link shows an appropriate page
+
+Actual Result
+The manufacturer link opens an error page
+
+___
+
+Additional unofficial bug/typo, when manually writing -1 to "Add to Cart"
+
+"Minimum purchase amount of 0 is required" error is displayed
+
+When writing 0 and clicking add to cart another error that says 1 or greater.
+
+Also when pressing '-' from 0 it increases to 1 after that.
+
+___
+
+You found 13 bugs.
+In this bug, the twitter share button in the product details page is broken.
+
+Severity
+Medium
+
+Issue Type
+Functional
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+Click the twitter share button
+Expected Result
+The twitter share button shows an appropriate page
+
+Actual Result
+The twitter share button shows an error page
+
+___
+
+You found 14 bugs.
+In this bug, the My Space share page loads infinitely.
+
+Severity
+Low
+
+Issue Type
+Performance
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+Click the My Space share link
+Expected Result
+The user is able to share the product through My Space
+
+Actual Result
+My Space share page loads infinitely
+
+___
+
+#15 Alright! You found 15 bugs, there are 10 more.
+In this bug, the filter by price doesn't work in the product details or product list pages.
+
+Severity
+Medium
+
+Issue Type
+Functional
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+On the right side menu find the Filter by Price section
+Select any of the price ranges
+Also open any item from the right side Store Menu and select the price ranges on the right side menu
+Expected Result
+A list of products in the selected price range is shown
+
+Actual Result
+The same page reloads
+
+___
+
+You found 17 bugs.
+In this bug, there are unreadable symbols in the shopping cart popup.
+
+Severity
+Low
+
+Issue Type
+Content
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Add one or more products to the cart
+Click "View Cart" on top of the page
+Scroll down to the Shopping Cart section of the right side menu
+Hover over the Shopping Cart caption
+Expected Result
+All characters are clear to a regular user
+
+Actual Result
+There are unreadable symbols in the shopping cart popup
+
+___
+
+You found 18 bugs.
+In this bug, the product in the Hot Item section keeps loading.
+
+Severity
+High
+
+Issue Type
+Performance
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+Open the product in the Hot Item section of the right side menu
+Expected Result
+The product in the Hot Item section is displayed
+
+Actual Result
+The page loads infinitely
+
+___
+Did not notice
+
+You found 18 bugs.
+In this bug, item images have unnecessary space underneath.
+
+Severity
+Low
+
+Issue Type
+Visual
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+Find the Store Menu section in the right side menu
+Choose All Items
+Expected Result
+Item images have no space underneath
+
+Actual Result
+Item images have unnecessary space underneath
+
+___
+
+You found 19 bugs.
+In this bug, the yellow and orange colors of the product are misspelled.
+
+Severity
+Low
+
+Issue Type
+Content
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product with color options
+Choose the Yellow and Orange colors
+Expected Result
+The yellow and orange colors are spelled correctly
+
+Actual Result
+Yellow is misspelled as "Yelow" and Orange as "Orang"
+
+___
+
+#20 Excellent! You found 20 bugs, there are 5 more.
+In this bug, the Sign In button overlaps the footer.
+
+Severity
+Low
+
+Issue Type
+Visual
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product with no color selection options
+Scroll down to the bottom of the right side menu
+Expected Result
+The Sign In button is above the footer
+
+Actual Result
+The Sign In button overlaps the footer
+
+___
+
+You found 21 bugs.
+In this bug, the billing information isn't updated.
+
+Severity
+High
+
+Issue Type
+Performance
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+Click "Sign Up" at the bottom of right side menu
+Sign up with fake data if you are not signed up. Otherwise enter your credentials and log in
+At the bottom of the right side menu select Billing Information
+Fill out the billing information form
+Click "Update"
+Expected Result
+Billing information is updated after filling out the form and clicking "Update"
+
+Actual Result
+Billing information loads infinitely after filling out the form and clicking "Update"
+
+___
+
+In this bug, the order history loads infinitely.
+
+Severity
+High
+
+Issue Type
+Performance
+
+Frequency
+Every Time
+
+Environment
+All Browsers
+
+Action Performed
+
+Open https://academybugs.com
+Click the Find Bugs link on the navigation bar
+Open a product
+Sign up if you are not signed up or log in at the bottom of right side menu
+At the bottom of the right side menu select Order History
+Expected Result
+Your Order History section shows appropriate info
+
+Actual Result
+Your Order History section loads infinitely
+
+___
+
+
+Stop 21:25
