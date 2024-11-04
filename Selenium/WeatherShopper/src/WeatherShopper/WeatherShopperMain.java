@@ -27,6 +27,12 @@ public class WeatherShopperMain {
 		
 		WebDriver browser = new ChromeDriver();
 		
+		Moisturizers.resetObjectList();
+		Sunscreen.resetObjectList();
+		
+		moisturizer = false;
+		sunscreen = false;
+		
 		return browser;
 	}
 	
@@ -166,7 +172,6 @@ public class WeatherShopperMain {
 		objectList.removeIf(prod -> {
 		for (WebElement el : finalSet)
 		{
-			//List<WebElement> finalTable = el.findElements(By.tagName("td"));
 			if (el.getText().contains(prod.name) && el.getText().contains(String.valueOf(prod.price)))
 			{
 				return true;
@@ -216,12 +221,45 @@ public class WeatherShopperMain {
 
 		WebElement finalPayButton = browser.findElement(By.cssSelector(".button.submit"));
 		finalPayButton.click();
-		return true;
 		
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		browser.switchTo().defaultContent();
+		
+		WebElement statusContainer = timeoutWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".row.justify-content-center")));
+		
+		WebElement finalStatus = statusContainer.findElement(By.tagName("h2"));
+		if (finalStatus.isDisplayed())
+		{
+			if (finalStatus.getText().contains("PAYMENT SUCCESS"))
+			{
+				System.out.println("Payment was successful.");
+				return true;
+			}
+			else
+			{
+				System.out.println("Something went wrong.");
+				try {
+					Thread.sleep(5000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				return false;
+			}
+		}
+		return false;		
 	}
 
 
 	public static void main(String[] args) {
+		for (int i = 0; i < 25; i++) {
+		
 		WebDriver browser = initialize();
 		WebDriverWait timeoutWait = new WebDriverWait(browser, Duration.ofSeconds(10));
 		
@@ -249,7 +287,6 @@ public class WeatherShopperMain {
 			{
 				finishOrder(browser, timeoutWait);
 			}
-			
 		}
 		if (sunscreen == true)
 		{
@@ -259,10 +296,11 @@ public class WeatherShopperMain {
 			if (checkCart(browser, products))
 			{
 				finishOrder(browser, timeoutWait);
+
 			}
 		}
+		browser.close();
 
-		//browser.close();
-		
+	}
 	}
 }

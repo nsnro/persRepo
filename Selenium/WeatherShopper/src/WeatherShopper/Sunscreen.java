@@ -26,4 +26,10 @@ public class Sunscreen extends Products {
 	{
 		return "ProductName: " + name + "; Product Price: " + price;
 	}
+	
+	public static void resetObjectList()
+	{
+		objects.clear();
+	}
+
 }
