@@ -4,7 +4,10 @@ import WeatherShopper.Moisturizers;
 import WeatherShopper.Sunscreen;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -102,47 +105,119 @@ public class WeatherShopperMain {
 			}
 	}
 	
-	public static void determineChoice(WebDriver browser, String keyword)
+	public static Products determineChoice(WebDriver browser, String keyword)
 	{
 		if (moisturizer == true)
 		{
-			int price = 99999;
-			String name = "";
+			Moisturizers finalChoice = new Moisturizers("",9999);
 			for (Moisturizers moisturizer : Moisturizers.objects)
 			{
 				if (moisturizer.name.contains(keyword))
 				{
-					if (moisturizer.price < price)
+					if (moisturizer.price < finalChoice.price)
 					{
-						name = moisturizer.name;
-						price = moisturizer.price;
+						finalChoice.name = moisturizer.name;
+						finalChoice.price = moisturizer.price;
 					}
 				}
 			}
-			addToCart(name, price);
+			addToCart(browser, finalChoice.name, finalChoice.price);
+			return finalChoice;
 		}
 		if (sunscreen == true)
 		{
-			int price = 99999;
-			String name = "";
+			Sunscreen finalChoice = new Sunscreen("",9999);
 			for (Sunscreen sunscreen : Sunscreen.objects)
 			{
-				if (sunscreen.name.contains(keyword))
-				{
-					if (sunscreen.price < price)
+					if (sunscreen.name.contains(keyword))
 					{
-						name = sunscreen.name;
-						price = sunscreen.price;
+						if (sunscreen.price < finalChoice.price)
+						{
+							finalChoice.name = sunscreen.name;
+							finalChoice.price = sunscreen.price;
+						}
 					}
 				}
+			addToCart(browser, finalChoice.name, finalChoice.price);
+			return finalChoice;
+		}
+		return null;
+	}
+	
+	public static void addToCart(WebDriver browser, String name, int price)
+	{
+		WebElement addToCartButton = browser.findElement(By.xpath("//*[@onclick=\"addToCart('" + name + "'," + price + ")\"]"));
+		
+		addToCartButton.click();
+		
+	}
+	
+	public static boolean checkCart(WebDriver browser, List<Products> objectList)
+	{
+		WebElement cartButton = browser.findElement(By.cssSelector(".thin-text.nav-link"));
+		cartButton.click();
+		
+		WebElement table = browser.findElement(By.cssSelector(".table.table-striped"));
+		
+		List<WebElement> tableElements = table.findElements(By.xpath("//tbody/tr"));
+
+		Set<WebElement> finalSet = new HashSet<>(tableElements);
+		
+		objectList.removeIf(prod -> {
+		for (WebElement el : finalSet)
+		{
+			//List<WebElement> finalTable = el.findElements(By.tagName("td"));
+			if (el.getText().contains(prod.name) && el.getText().contains(String.valueOf(prod.price)))
+			{
+				return true;
 			}
-			addToCart(name, price);
+		}
+		return false;
+		});
+		if (objectList.size() == 0)
+		{
+			System.out.println("Massive success!");
+			return true;
+		}
+		else
+		{
+			System.out.println("You are a disgrace...");
+			return false;
 		}
 	}
 	
-	public static void addToCart(String name, int price)
+	public static boolean finishOrder(WebDriver browser, WebDriverWait timeoutWait)
 	{
-		System.out.println(name + price);
+		WebElement payButton = browser.findElement(By.className("stripe-button-el"));
+		payButton.click();
+		
+		browser.switchTo().frame("stripe_checkout_app");
+		
+		WebElement emailAddress = timeoutWait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));
+		if (emailAddress.isDisplayed())
+		{
+			Resources.sendKeysOneByOne(emailAddress, Resources.testEmail);
+		}
+
+		WebElement cardNumber = browser.findElement(By.id("card_number"));
+		Resources.sendKeysOneByOne(cardNumber, Resources.testCard);
+		
+		WebElement expDate = browser.findElement(By.id("cc-exp"));
+		Resources.sendKeysOneByOne(expDate, Resources.cardDate);
+		
+		WebElement cvcNumber = browser.findElement(By.id("cc-csc"));
+		Resources.sendKeysOneByOne(cvcNumber, Resources.testCVC);
+		
+		WebElement zipCode = timeoutWait.until(ExpectedConditions.visibilityOfElementLocated(By.id("billing-zip")));
+		if (zipCode.isDisplayed())
+		{
+			Resources.sendKeysOneByOne(zipCode, Resources.zipCode);
+		}
+
+		WebElement finalPayButton = browser.findElement(By.cssSelector(".button.submit"));
+		finalPayButton.click();
+		return true;
+		
 	}
 
 
@@ -164,18 +239,30 @@ public class WeatherShopperMain {
 		//Add products to cart according to exercise request
 		
 		parsePage(browser);
+		
 		if (moisturizer == true)
 		{
-			determineChoice(browser, "Aloe");
-			determineChoice(browser, "Almond");
+			List<Products> products = new ArrayList<>();
+			products.add(determineChoice(browser, "Aloe"));
+			products.add(determineChoice(browser, "Almond"));
+			if (checkCart(browser, products))
+			{
+				finishOrder(browser, timeoutWait);
+			}
+			
 		}
 		if (sunscreen == true)
 		{
-			determineChoice(browser, "SPF-50");
-			determineChoice(browser, "SPF-30");
+			List<Products> products = new ArrayList<>();
+			products.add(determineChoice(browser, "SPF-50"));
+			products.add(determineChoice(browser, "SPF-30"));
+			if (checkCart(browser, products))
+			{
+				finishOrder(browser, timeoutWait);
+			}
 		}
 
-		browser.close();
+		//browser.close();
 		
 	}
 }

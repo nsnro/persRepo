@@ -3,9 +3,7 @@ package WeatherShopper;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Sunscreen {
-	public String name;
-	public int price;
+public class Sunscreen extends Products {
 	public static List<Sunscreen> objects = new ArrayList<>();
 	
 	public Sunscreen(String Mname, int Mprice)
