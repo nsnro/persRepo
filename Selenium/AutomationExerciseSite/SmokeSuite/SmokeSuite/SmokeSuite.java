@@ -28,6 +28,7 @@ public class SmokeSuite {
         public static By cartButton = By.cssSelector(".fa.fa-shopping-cart");
         public static By loginSignUp = By.cssSelector("a[href='/login'");
         public static By contactUs = By.cssSelector("a[href='/contact_us']");
+        public static By testCases = By.cssSelector("a[href='/test_cases']");
     }
 
     public static class SignUpLogin {
@@ -110,7 +111,27 @@ public class SmokeSuite {
         public static String confirmationMessage = "Success! Your details have been submitted successfully.";
 
         public static By homeButton = By.cssSelector("a.btn.btn-success");
+    }
 
+    public static class TestCases {
+        public static By testCaseListHeader = By.cssSelector("h2.title.text-center");
+        public static By testCaseListing = By.cssSelector("h4.panel-title a[data-toggle='collapse']");
+        public static String testCaseHeader = "Test Cases";
+    }
+
+    public static class Products {
+        public static By allProductsHeader = By.cssSelector("div.features_items h2");
+        public static String allProductsText = "All Products";
+
+        public static By genericProductsClass = By.cssSelector("div[class='single-products']");
+        public static By viewProductButton = By.cssSelector("a[href='/product_details/1']");
+
+        public static By productName = By.cssSelector("div.product-information h2");
+        public static By productCategory = By.cssSelector("div.product-information p");
+        public static By productPrice = By.cssSelector("div.product-information span>span");
+        public static By productAvailability = By.xpath("//div[@class='product-information']//p[b[text()='Availability:']]");
+        public static By productCondition = By.xpath("//div[@class='product-information']//p[b[text()='Condition:']]");
+        public static By productBrand = By.xpath("//div[@class='product-information']//p[b[text()='Brand:']]");
     }
 
     public List<String> createUserAccount(WebDriver browser)
@@ -120,7 +141,7 @@ public class SmokeSuite {
 
         //Test Step 3: Check website is fully loaded and buttons are visible.
         List<By> locArgs = new ArrayList<>();
-        Collections.addAll(locArgs, MainPage.homeButton, MainPage.productsButton, MainPage.cartButton, MainPage.contactUs);
+        Collections.addAll(locArgs, MainPage.homeButton, MainPage.productsButton, MainPage.cartButton, MainPage.contactUs, MainPage.testCases);
 
         Assert.assertTrue(Resources.waitForElements(browser, locArgs) && Resources.isPageLoaded(browser),
                 "Test failed due to either relevant buttons or website not loading correctly (HomePage)");
@@ -257,7 +278,7 @@ public class SmokeSuite {
 
         //Test Step 3: Check website is fully loaded and buttons are visible.
         List<By> locArgs = new ArrayList<>();
-        Collections.addAll(locArgs, MainPage.homeButton, MainPage.productsButton, MainPage.cartButton, MainPage.contactUs);
+        Collections.addAll(locArgs, MainPage.homeButton, MainPage.productsButton, MainPage.cartButton, MainPage.contactUs, MainPage.testCases);
 
         Assert.assertTrue(Resources.waitForElements(browser, locArgs) && Resources.isPageLoaded(browser),
                 "Test failed due to either relevant buttons or website not loading correctly (HomePage)");
@@ -323,7 +344,7 @@ public class SmokeSuite {
 
         //Test Step 3: Check website is fully loaded and buttons are visible.
         List<By> locArgs = new ArrayList<>();
-        Collections.addAll(locArgs, MainPage.homeButton, MainPage.productsButton, MainPage.cartButton, MainPage.contactUs);
+        Collections.addAll(locArgs, MainPage.homeButton, MainPage.productsButton, MainPage.cartButton, MainPage.contactUs, MainPage.testCases);
 
         Assert.assertTrue(Resources.waitForElements(browser, locArgs) && Resources.isPageLoaded(browser),
                 "Test failed due to either relevant buttons or website not loading correctly (HomePage)");
@@ -384,7 +405,7 @@ public class SmokeSuite {
 
         //Test Step 3: Check website is fully loaded and buttons are visible.
         List<By> locArgs = new ArrayList<>();
-        Collections.addAll(locArgs, MainPage.homeButton, MainPage.productsButton, MainPage.cartButton, MainPage.contactUs);
+        Collections.addAll(locArgs, MainPage.homeButton, MainPage.productsButton, MainPage.cartButton, MainPage.contactUs, MainPage.testCases);
 
         Assert.assertTrue(Resources.waitForElements(browser, locArgs) && Resources.isPageLoaded(browser),
                 "Test failed due to either relevant buttons or website not loading correctly (HomePage)");
@@ -456,7 +477,7 @@ public class SmokeSuite {
 
         //Test Step 3: Check website is fully loaded and buttons are visible.
         List<By> locArgs = new ArrayList<>();
-        Collections.addAll(locArgs, MainPage.homeButton, MainPage.productsButton, MainPage.cartButton, MainPage.contactUs);
+        Collections.addAll(locArgs, MainPage.homeButton, MainPage.productsButton, MainPage.cartButton, MainPage.contactUs, MainPage.testCases);
 
         Assert.assertTrue(Resources.waitForElements(browser, locArgs) && Resources.isPageLoaded(browser),
                 "Test failed due to either relevant buttons or website not loading correctly (HomePage)");
@@ -506,11 +527,11 @@ public class SmokeSuite {
         WebDriver browser = res.Initialize(GeneralConfiguration.chromeDriverPath);
 
         //Test Step 2: Navigate to website https://www.automationexercise.com/
-        Resources.navigateTo(browser,GeneralConfiguration.webSite);
+        Resources.navigateTo(browser, GeneralConfiguration.webSite);
 
         //Test Step 3: Check website is fully loaded and buttons are visible.
         List<By> locArgs = new ArrayList<>();
-        Collections.addAll(locArgs, MainPage.homeButton, MainPage.productsButton, MainPage.cartButton, MainPage.contactUs);
+        Collections.addAll(locArgs, MainPage.homeButton, MainPage.productsButton, MainPage.cartButton, MainPage.contactUs, MainPage.testCases);
 
         Assert.assertTrue(Resources.waitForElements(browser, locArgs) && Resources.isPageLoaded(browser),
                 "Test failed due to either relevant buttons or website not loading correctly (HomePage)");
@@ -573,4 +594,81 @@ public class SmokeSuite {
         browser.close();
     }
 
+    @Test
+    public void testCase_TestCasePage()
+    {
+        //Launch Browser
+        Resources res = new Resources();
+
+        WebDriver browser = res.Initialize(GeneralConfiguration.chromeDriverPath);
+
+        //Test Step 2: Navigate to website https://www.automationexercise.com/
+        Resources.navigateTo(browser, GeneralConfiguration.webSite);
+
+        //Test Step 3: Check website is fully loaded and buttons are visible.
+        List<By> locArgs = new ArrayList<>();
+        Collections.addAll(locArgs, MainPage.homeButton, MainPage.productsButton, MainPage.cartButton, MainPage.contactUs, MainPage.testCases);
+
+        Assert.assertTrue(Resources.waitForElements(browser, locArgs) && Resources.isPageLoaded(browser),
+                "Test failed due to either relevant buttons or website not loading correctly (HomePage)");
+
+        //Test Step 4: Locate & click Test Cases button
+        WebElement testCasesButton = Resources.findElement(browser, MainPage.testCases);
+        testCasesButton.click();
+
+        //Test Step 5: Check page loaded correctly and test cases are visible.
+        locArgs.clear();
+        Collections.addAll(locArgs, TestCases.testCaseListHeader, TestCases.testCaseListing);
+
+        Assert.assertTrue(Resources.waitForElements(browser, locArgs) && Resources.isPageLoaded(browser),
+                "Test failed due to either website not fully loading or test header/test listings missing/incorrect");
+
+        if (Resources.waitForElement(browser, TestCases.testCaseListHeader, 10))
+        {
+            Assert.assertTrue(Objects.equals(Resources.getElementText(browser, TestCases.testCaseListHeader).toLowerCase(), (TestCases.testCaseHeader).toLowerCase()) && Resources.isPageLoaded(browser),
+                    "Test failed either due to test case header not loading or message is another than expected.");
+        }
+
+        browser.close();
+    }
+
+    @Test
+    public void testCase_verifyAllProducts() {
+        //Launch Browser
+        Resources res = new Resources();
+
+        WebDriver browser = res.Initialize(GeneralConfiguration.chromeDriverPath);
+
+        //Test Step 2: Navigate to website https://www.automationexercise.com/
+        Resources.navigateTo(browser, GeneralConfiguration.webSite);
+
+        //Test Step 3: Check website is fully loaded and buttons are visible.
+        List<By> locArgs = new ArrayList<>();
+        Collections.addAll(locArgs, MainPage.homeButton, MainPage.productsButton, MainPage.cartButton, MainPage.contactUs, MainPage.testCases);
+
+        Assert.assertTrue(Resources.waitForElements(browser, locArgs) && Resources.isPageLoaded(browser),
+                "Test failed due to either relevant buttons or website not loading correctly (HomePage)");
+
+        //Test Step 4: Locate & click Test Cases button
+        WebElement productsButton = Resources.findElement(browser, MainPage.productsButton);
+        productsButton.click();
+
+        //Test Step 5: Check page has loaded & products are visible.
+        Assert.assertTrue(Resources.isPageLoaded(browser), "Failed to load products page.");
+
+        //Test Step 6: Products list is visible.
+        List<WebElement> products = Resources.findElements(browser, Products.genericProductsClass);
+        Assert.assertTrue(products.size() > 2, "Possibly not all products have loaded.");
+
+        //Test Step 7: Locate & click the "View Product" button of the first product.
+        WebElement firstElementViewProduct = Resources.findElement(browser, Products.viewProductButton);
+        firstElementViewProduct.click();
+
+        //Test Step 8: Check product details are visible
+        List<By> productDetails = new ArrayList<>();
+        Collections.addAll(productDetails, Products.productName, Products.productCategory, Products.productPrice, Products.productAvailability,
+                Products.productCondition, Products.productBrand);
+
+        Assert.assertTrue(Resources.waitForElements(browser, productDetails), "Failed to load all relevant products details");
+    }
 }

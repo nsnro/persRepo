@@ -111,6 +111,7 @@ public class Resources {
         {
             if (!waitForElement(browser, loc, 5))
             {
+                System.out.println(loc);
                 return false;
             }
         }
